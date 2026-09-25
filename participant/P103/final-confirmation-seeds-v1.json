@@ -1,0 +1,4807 @@
+{
+  "schedule_schema_version": "coverage-schedule/1.0",
+  "schedule_id": "p103-final-confirmation-seeds-v1",
+  "schedule_hash": "5b21509c8b09ff683e0e11355580d6fd5a349d90ee58458225a40fe758335417",
+  "records": [
+    {
+      "case_id": "fcb-00",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2316570895177838076,
+      "policy_seed": 10442606616662717636,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-00",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2496515409682719123,
+      "policy_seed": 10077023788154135567,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-00",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17558670371397381313,
+      "policy_seed": 15077631636076620977,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-00",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11970025997347838881,
+      "policy_seed": 2467745899565317337,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-00",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13856344465907810074,
+      "policy_seed": 10560020368806678193,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-00",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16349094147130113204,
+      "policy_seed": 6993003156777338314,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-01",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11439534967211169677,
+      "policy_seed": 13366534961594649750,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-01",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 18284539639455918838,
+      "policy_seed": 2547012008981143904,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-01",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 956077811856308845,
+      "policy_seed": 15346291557295454697,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-01",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15740750762956859179,
+      "policy_seed": 11492057019215581438,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-01",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 985593130416472547,
+      "policy_seed": 7672298122231544512,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-01",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13154533826482446559,
+      "policy_seed": 15636028570539436149,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-02",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17514173409817455167,
+      "policy_seed": 15316676990087422533,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-02",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14314688732627179018,
+      "policy_seed": 16720203787523240230,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-02",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15657412942057015335,
+      "policy_seed": 9747732146210187033,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-02",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9470333664261333162,
+      "policy_seed": 5359066369382528530,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-02",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8597020383766412154,
+      "policy_seed": 11937355213986960619,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-02",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17155368453888610603,
+      "policy_seed": 5965292838867116380,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-03",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15110611717863059682,
+      "policy_seed": 10543547789850063710,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-03",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4714933701408434165,
+      "policy_seed": 5939411655351669577,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-03",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16187255449444784311,
+      "policy_seed": 15756173156923940615,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-03",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14959591441806304640,
+      "policy_seed": 14576824598197176206,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-03",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5388123154014995042,
+      "policy_seed": 7036553366195178335,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-03",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12275948758707294576,
+      "policy_seed": 9317819351781491880,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-04",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3255206391945528866,
+      "policy_seed": 15452409222546486777,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-04",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7520344068323436196,
+      "policy_seed": 549122263560082868,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-04",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3049723690403868119,
+      "policy_seed": 15306790545199520233,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-04",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4405654252339065777,
+      "policy_seed": 18210313814460580801,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-04",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2565129005474117097,
+      "policy_seed": 6184885801745680334,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-04",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12410213937824515682,
+      "policy_seed": 6455881039324634588,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-05",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7751398924716197732,
+      "policy_seed": 5654044749502222530,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-05",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1005748122108122346,
+      "policy_seed": 17701073954519714199,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-05",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15318988810463170527,
+      "policy_seed": 10577556522273022808,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-05",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12150654399212697946,
+      "policy_seed": 7874545560728634751,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-05",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 952489438711083787,
+      "policy_seed": 486491052023407461,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-05",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7780712801621223540,
+      "policy_seed": 9946217576751594074,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-06",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11637643180156001685,
+      "policy_seed": 14208905041938089991,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-06",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9322589739279429982,
+      "policy_seed": 9495541769116732497,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-06",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13927044300711962301,
+      "policy_seed": 9440107699375327769,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-06",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1468440600381744042,
+      "policy_seed": 3622175137831127142,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-06",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 178179933157499688,
+      "policy_seed": 7362780200012692860,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-06",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4594957240745594798,
+      "policy_seed": 2346031617093557177,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-07",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 323040130238434050,
+      "policy_seed": 13293902079059200839,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-07",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11563553840076109492,
+      "policy_seed": 11285206493629570828,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-07",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8456491114348268938,
+      "policy_seed": 5928028864377622707,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-07",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5025909148811972087,
+      "policy_seed": 5106167205015134398,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-07",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3072912996767932833,
+      "policy_seed": 11941686716203702447,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-07",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3019790006580891173,
+      "policy_seed": 12980083972837781818,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-08",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10314074595156442758,
+      "policy_seed": 3963510231069030667,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-08",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13764306824612860097,
+      "policy_seed": 2724184301388222502,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-08",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10582626977863952634,
+      "policy_seed": 17568006750729668324,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-08",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5105492961135407738,
+      "policy_seed": 6458157825873426610,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-08",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15738291175902311587,
+      "policy_seed": 4630027085836228110,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-08",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1611862450744212934,
+      "policy_seed": 2111115998703208453,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-09",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12716521674412054379,
+      "policy_seed": 12975872460747258006,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-09",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16593645822588082896,
+      "policy_seed": 5673529460024583843,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-09",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1997120652921240175,
+      "policy_seed": 13718975457707334175,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-09",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7738703015859919727,
+      "policy_seed": 5710684211727224259,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-09",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5918128474004787632,
+      "policy_seed": 17737986906031691837,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-09",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8142482489878896814,
+      "policy_seed": 16912978897386651165,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-10",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14731219242175307140,
+      "policy_seed": 12147250479377426317,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-10",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10225439766331963806,
+      "policy_seed": 18192660499761003898,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-10",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3578083016221808667,
+      "policy_seed": 4210336943140784843,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-10",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10215928031121049824,
+      "policy_seed": 4764447290565794766,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-10",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1247377110661449604,
+      "policy_seed": 1113449111789169166,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-10",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14010727643844521180,
+      "policy_seed": 12335892595077314234,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-11",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4381176504403150658,
+      "policy_seed": 3200810665179778550,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-11",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13605688630098639969,
+      "policy_seed": 11382780607232480527,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-11",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15696342054776911114,
+      "policy_seed": 408996870443436068,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-11",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3354313568827036997,
+      "policy_seed": 5797484085826395691,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-11",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2518954077319071103,
+      "policy_seed": 201533760566102480,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-11",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1055933593781517817,
+      "policy_seed": 951043999865977414,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-12",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5656822017649126945,
+      "policy_seed": 9147034165265704548,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-12",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11617012035385787613,
+      "policy_seed": 1969449494078475249,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-12",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17348028498190797338,
+      "policy_seed": 9038489385748192056,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-12",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17618862611235356020,
+      "policy_seed": 187763168314041619,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-12",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9492893002909903899,
+      "policy_seed": 11627485176883290006,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-12",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10320834999754580459,
+      "policy_seed": 1185378948642332560,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-13",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11472513458604803849,
+      "policy_seed": 18374913839675999546,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-13",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17436657860378574670,
+      "policy_seed": 552511920456416447,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-13",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10969667853207579070,
+      "policy_seed": 15884054667634276627,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-13",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2516352588559472332,
+      "policy_seed": 2208770346984406378,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-13",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 7895244903281909678,
+      "policy_seed": 4690431951665069944,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-13",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1768520396493283584,
+      "policy_seed": 1864984259151065701,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-14",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8567555669421378840,
+      "policy_seed": 7869510240172842913,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-14",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4023562651022982238,
+      "policy_seed": 6022016279112436163,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-14",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6931908941744725021,
+      "policy_seed": 9438263117163205401,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-14",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4997021753312766600,
+      "policy_seed": 3351847034806629557,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-14",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17625830561027988390,
+      "policy_seed": 3641392292201747545,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-14",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 955780096975742917,
+      "policy_seed": 11050482261216140992,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-15",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5816689211937978874,
+      "policy_seed": 2680137634344972663,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-15",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8375864237936426884,
+      "policy_seed": 9764961224574291031,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-15",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6813051865082469375,
+      "policy_seed": 15435894037758371174,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-15",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12543971459141895570,
+      "policy_seed": 1945663779432868974,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-15",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13373221864422117194,
+      "policy_seed": 11966136547850128975,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-15",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13024242925344337002,
+      "policy_seed": 14164190069216308319,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-16",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15497001837556559136,
+      "policy_seed": 15895148137306947321,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-16",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12595849696431766584,
+      "policy_seed": 13269188843925235285,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-16",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7618241989842398624,
+      "policy_seed": 12642995563098179099,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-16",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7164242957454171167,
+      "policy_seed": 5611183938439318341,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-16",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3226830606060563876,
+      "policy_seed": 12161611384054822142,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-16",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14158633703863913093,
+      "policy_seed": 638451050552900426,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-17",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 591475382439077713,
+      "policy_seed": 9884305914655802121,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-17",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5776979196682917424,
+      "policy_seed": 12093667756018463400,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-17",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17406254276432190750,
+      "policy_seed": 12359674257209864461,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-17",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11915429440028978148,
+      "policy_seed": 16703572091252816491,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-17",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3212416098805296204,
+      "policy_seed": 7332508296973034251,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-17",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6107342420586662844,
+      "policy_seed": 10754331561947086856,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-18",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6093879802105097703,
+      "policy_seed": 11490464643970480964,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-18",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11129972849897310153,
+      "policy_seed": 16709817323758966957,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-18",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2924239973745580539,
+      "policy_seed": 3615043864351750159,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-18",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7883907651314771863,
+      "policy_seed": 8453546715027506720,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-18",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9052105479820831959,
+      "policy_seed": 3812780862667860909,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-18",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9939723995169645922,
+      "policy_seed": 15637672756858030391,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-19",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 61671801954376393,
+      "policy_seed": 4392735335459488018,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-19",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13812064682747831625,
+      "policy_seed": 18005078682512286980,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-19",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10305548324084157043,
+      "policy_seed": 6808816410746115204,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-19",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14611279026556796334,
+      "policy_seed": 7393758028835484493,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-19",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10238541824061311484,
+      "policy_seed": 11605279622533690878,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-19",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10696431167152745814,
+      "policy_seed": 15879716529855135569,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-20",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11407681881487095148,
+      "policy_seed": 4583603681963401130,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-20",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5140179260104499701,
+      "policy_seed": 14732931024065590787,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-20",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9642428198952317699,
+      "policy_seed": 10949845211096911866,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-20",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 36745596988572174,
+      "policy_seed": 14468055261592290839,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-20",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5427235984530245356,
+      "policy_seed": 5122854333162057443,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-20",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6307869590516185809,
+      "policy_seed": 10700946394098215705,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-21",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13583652047721408367,
+      "policy_seed": 7699120601756778466,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-21",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14868485762318166680,
+      "policy_seed": 9431830957396703914,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-21",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13846620736449178065,
+      "policy_seed": 12740067021503429934,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-21",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14926086176099508788,
+      "policy_seed": 12900596727259385823,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-21",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 18048618849807557914,
+      "policy_seed": 13143644098546823052,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-21",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5334998369475984623,
+      "policy_seed": 5610205681930111280,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-22",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9322903980387831616,
+      "policy_seed": 5779617592082518843,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-22",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13360512470847210931,
+      "policy_seed": 8364454615691966596,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-22",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3100452046394972062,
+      "policy_seed": 11817741755644005119,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-22",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11966736960240011223,
+      "policy_seed": 13952303078466736143,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-22",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13000555347591208616,
+      "policy_seed": 1736456545867163333,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-22",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7929156888215610038,
+      "policy_seed": 5915670222791757518,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-23",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9514539241206593144,
+      "policy_seed": 7359772742010415358,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-23",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1233689038966879957,
+      "policy_seed": 2982877946510028452,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-23",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7955429181591503746,
+      "policy_seed": 14219679300273101688,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-23",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17930026677803448075,
+      "policy_seed": 1415540983728379566,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-23",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14450595811586190475,
+      "policy_seed": 7143459793174081179,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-23",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8781892421356268098,
+      "policy_seed": 730911722647166380,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-24",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12452600478480850044,
+      "policy_seed": 12816632265263206641,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-24",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9801427661505676392,
+      "policy_seed": 4556891088960747262,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-24",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2557301471677099471,
+      "policy_seed": 9387582726787422447,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-24",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1101111682733435073,
+      "policy_seed": 4391637042000178870,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-24",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17728239019956033539,
+      "policy_seed": 11410236126455313789,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-24",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2531465033228146098,
+      "policy_seed": 5150599174777027230,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-25",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9382639208695746028,
+      "policy_seed": 10198663042358467140,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-25",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2618894218236962104,
+      "policy_seed": 10179894148211887045,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-25",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11778590508430771057,
+      "policy_seed": 10580511909451418826,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-25",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14114413178255725089,
+      "policy_seed": 9401161221998189808,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-25",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2486257570792127269,
+      "policy_seed": 14605293335718956719,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-25",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17854571124132104088,
+      "policy_seed": 12442229082559604873,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-26",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10183348068529849551,
+      "policy_seed": 13254376756172684855,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-26",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 18065365765448410199,
+      "policy_seed": 11881035798297754045,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-26",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6232845527231483294,
+      "policy_seed": 15661910963992466245,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-26",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14085610007274741188,
+      "policy_seed": 3041454030950124594,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-26",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10958906464950784752,
+      "policy_seed": 12796348302236823316,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-26",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13639031676590451347,
+      "policy_seed": 13602932894147898803,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-27",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4121732141347592562,
+      "policy_seed": 4113548117198982186,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-27",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14342578513536561304,
+      "policy_seed": 10344370809097458404,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-27",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8208220987481258241,
+      "policy_seed": 9146498117365577435,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-27",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7549543815816006041,
+      "policy_seed": 4479233797646266596,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-27",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1060144244482630229,
+      "policy_seed": 14612079211139566149,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-27",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7691589629787942204,
+      "policy_seed": 15297759148208102777,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-28",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1265350920087816282,
+      "policy_seed": 16877484205673738490,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-28",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1789752436817257688,
+      "policy_seed": 14068192665273952262,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-28",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8500950400975759769,
+      "policy_seed": 1781288113833332678,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-28",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17688035848946458833,
+      "policy_seed": 13743356356592177373,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-28",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2350880641579755869,
+      "policy_seed": 6597285548688137376,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-28",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 406958295346519348,
+      "policy_seed": 17579661086785321666,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-29",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8713992940038674311,
+      "policy_seed": 14191056629834789053,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-29",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2709483452727828697,
+      "policy_seed": 14680268150863932511,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-29",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1756836938462517720,
+      "policy_seed": 11998000068070530203,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-29",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17604733807020603176,
+      "policy_seed": 10308379444408856362,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-29",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11187150764066582633,
+      "policy_seed": 18311414123067180601,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-29",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17549986281455417749,
+      "policy_seed": 907045440940871041,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-30",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 811054292603261729,
+      "policy_seed": 17208206526197965823,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-30",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10978637295631400589,
+      "policy_seed": 2017923660843711560,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-30",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14190584084101108343,
+      "policy_seed": 13919467685354732994,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-30",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1890800663283788667,
+      "policy_seed": 11951282353052543939,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-30",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2804272658219247382,
+      "policy_seed": 8055475956219287801,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-30",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15364079699511772545,
+      "policy_seed": 6996819943359508058,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-31",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15412936000789021967,
+      "policy_seed": 15847653533239736070,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-31",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7263337185373059420,
+      "policy_seed": 9039775376048458111,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-31",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1678385491303796276,
+      "policy_seed": 18313281817615714345,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-31",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13618123014501814035,
+      "policy_seed": 14311623901599339146,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-31",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4802996313759924826,
+      "policy_seed": 10132618630116653177,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-31",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14475281406381799069,
+      "policy_seed": 14005591625143437413,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-32",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1734958082005219294,
+      "policy_seed": 2992843749814670844,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-32",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12028611031488915940,
+      "policy_seed": 11389887026068207871,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-32",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6903883988612045108,
+      "policy_seed": 1687644881445897863,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-32",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16725317193209507687,
+      "policy_seed": 16386634706419051544,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-32",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8587805241261134059,
+      "policy_seed": 4156612408777513079,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-32",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8083768823520722548,
+      "policy_seed": 5411119274996387669,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-33",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3529016773416278959,
+      "policy_seed": 6659220133464255462,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-33",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4353482742469361662,
+      "policy_seed": 6248736869578500092,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-33",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6281732395425571433,
+      "policy_seed": 7743046711216151709,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-33",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10996189750198944888,
+      "policy_seed": 12632769325218908825,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-33",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 305553278903122009,
+      "policy_seed": 4765360457119418179,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-33",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14220430603998419190,
+      "policy_seed": 7311799953868193656,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-34",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4696848828145099705,
+      "policy_seed": 15105332526772302480,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-34",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5714685968977965967,
+      "policy_seed": 8878286490638128770,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-34",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11665843855074328550,
+      "policy_seed": 7847694809323674519,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-34",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7724099769999320465,
+      "policy_seed": 4567446819070146282,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-34",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16624218948470058413,
+      "policy_seed": 1366732189658984344,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-34",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10749099197770439368,
+      "policy_seed": 7904136211153737832,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-35",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1154440877870175390,
+      "policy_seed": 9510681854553400741,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-35",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5071563645360758964,
+      "policy_seed": 2135881643477305207,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-35",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 249959149819146276,
+      "policy_seed": 11714390665870857559,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-35",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4204443083848203903,
+      "policy_seed": 8224020472602017717,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-35",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6942877009985701028,
+      "policy_seed": 2664452735117114243,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-35",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16701710334151044494,
+      "policy_seed": 8850614593401493439,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-36",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13448834899712280172,
+      "policy_seed": 6398751737987753242,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-36",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 23026094772420304,
+      "policy_seed": 14924470136445567232,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-36",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14046637772945575796,
+      "policy_seed": 7420259209368128506,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-36",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5279545388814013339,
+      "policy_seed": 1495699295847274405,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-36",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3721379785487465518,
+      "policy_seed": 18411164777687364755,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-36",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5292214576463718103,
+      "policy_seed": 8202718744766040501,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-37",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6015940796977139584,
+      "policy_seed": 12596802201549602474,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-37",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15818353903810232462,
+      "policy_seed": 9373052649041885144,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-37",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 654337310817445066,
+      "policy_seed": 11083933507036054093,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-37",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13531765739570207902,
+      "policy_seed": 13745676251706655723,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-37",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16903855701460009685,
+      "policy_seed": 15763091360695779155,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-37",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5983101376442788410,
+      "policy_seed": 7762611259934426060,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-38",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10040715838226770589,
+      "policy_seed": 11125139018482509925,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-38",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16919384524424111481,
+      "policy_seed": 2277969690468716180,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-38",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17856242566014415027,
+      "policy_seed": 2772802342221240380,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-38",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15692629181573815316,
+      "policy_seed": 6216714177782033740,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-38",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5248733004546470678,
+      "policy_seed": 9378157845441957963,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-38",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7957494611450026837,
+      "policy_seed": 13221836768616383340,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-39",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13710381897716167967,
+      "policy_seed": 12396809201478837143,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-39",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7005309944575098230,
+      "policy_seed": 12267657939366038523,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-39",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5433873863429837297,
+      "policy_seed": 10963132624660256326,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-39",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3986015492957050007,
+      "policy_seed": 15833295025490527513,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-39",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11378938640054674121,
+      "policy_seed": 17219664180688643705,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-39",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6079697102233074349,
+      "policy_seed": 11249234886255716766,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-40",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10131097888089141244,
+      "policy_seed": 13776230479286935578,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-40",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4038828154753274779,
+      "policy_seed": 10055167707335516701,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-40",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12136400707151113051,
+      "policy_seed": 8990144003521578591,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-40",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6796550038417109670,
+      "policy_seed": 7716873415994403968,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-40",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4109738065325376659,
+      "policy_seed": 12987080140054265547,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-40",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12806871129760983384,
+      "policy_seed": 12547352328495096322,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-41",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5565037990903844572,
+      "policy_seed": 15231336724965411171,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-41",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 64723398555437836,
+      "policy_seed": 17918537693564862224,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-41",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9891478823651299448,
+      "policy_seed": 4578613383656902353,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-41",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 866323412138925102,
+      "policy_seed": 12099556212563217887,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-41",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1971981057757806271,
+      "policy_seed": 7688528605214700794,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-41",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 865572964946513234,
+      "policy_seed": 12172426509870327945,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-42",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10413499064545436696,
+      "policy_seed": 14598591270445773308,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-42",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2432536277833660573,
+      "policy_seed": 5845982491609879691,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-42",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11132774208589505075,
+      "policy_seed": 12207994629847130829,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-42",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10641572787715953464,
+      "policy_seed": 12412095943701153974,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-42",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1256818281385148006,
+      "policy_seed": 16807145017324023419,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-42",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16503897027883679100,
+      "policy_seed": 9117090898536253499,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-43",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12986844361347831789,
+      "policy_seed": 12480521100818604009,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-43",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 3012518935819008939,
+      "policy_seed": 12895271397850171317,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-43",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4018827238846098694,
+      "policy_seed": 14759908023390172753,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-43",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14002926744149894807,
+      "policy_seed": 7115487922506843906,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-43",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15065837702854415808,
+      "policy_seed": 13803440314796777258,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-43",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17750463672473799295,
+      "policy_seed": 551832081164271299,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-44",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6765625058225875449,
+      "policy_seed": 18049563307550521119,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-44",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11289964370940109359,
+      "policy_seed": 2638179872606311525,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-44",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12762591377274360332,
+      "policy_seed": 3519507678171871572,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-44",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14436281373764872254,
+      "policy_seed": 7984518438006560637,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-44",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9565000556939858589,
+      "policy_seed": 8215181833664701125,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-44",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11566176438202922532,
+      "policy_seed": 11294077361596971667,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-45",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13784002586368019311,
+      "policy_seed": 6695818534477068384,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-45",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9887844489307138164,
+      "policy_seed": 406548450090910034,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-45",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14560960775214191125,
+      "policy_seed": 38444336720384910,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-45",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4311507807741427289,
+      "policy_seed": 14603066727572873819,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-45",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15527234096295054176,
+      "policy_seed": 3550088591906066485,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-45",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3380884491638930528,
+      "policy_seed": 11279555925550548057,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-46",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12514218798026867247,
+      "policy_seed": 3376191978815947095,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-46",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12494836381078721932,
+      "policy_seed": 18065783016312859100,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-46",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16189377168087018060,
+      "policy_seed": 10738195377179840075,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-46",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7262712678076199348,
+      "policy_seed": 334414725347943535,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-46",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11821045994002396275,
+      "policy_seed": 14145611705259038461,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-46",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10973473299958166982,
+      "policy_seed": 6065430548248239300,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-47",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11049492584839817408,
+      "policy_seed": 7861883367424591611,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-47",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10414347357466060930,
+      "policy_seed": 13388398351998069085,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-47",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1271516854834434901,
+      "policy_seed": 2927863819655356630,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-47",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7593633804737732486,
+      "policy_seed": 15459264618632324302,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-47",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 31621446747533044,
+      "policy_seed": 13739597809761962780,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-47",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2145572076454441940,
+      "policy_seed": 10373544320462340386,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-48",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17310545294543801024,
+      "policy_seed": 15010971673537133167,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-48",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17680751951929550153,
+      "policy_seed": 4135603460566669508,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-48",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7596199188744810015,
+      "policy_seed": 3448414590311498298,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-48",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7238561784652086428,
+      "policy_seed": 2846854158978400839,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-48",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14963272629123500763,
+      "policy_seed": 7403180539442451820,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-48",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4633647518059511282,
+      "policy_seed": 11041717417619758036,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-49",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15034221619476879988,
+      "policy_seed": 1699771219126577009,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-49",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9673326001948838203,
+      "policy_seed": 4491652910367044529,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-49",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17358045397515459553,
+      "policy_seed": 18367410230765023019,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-49",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2480018593283032613,
+      "policy_seed": 17588764776896861329,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-49",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5002244742461318452,
+      "policy_seed": 14057474838963769784,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcb-49",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2156769200184952952,
+      "policy_seed": 16861810771267858906,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "fcc-00",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10988254049567686700,
+      "policy_seed": 3485864519665356418,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-00",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 58006648428809115,
+      "policy_seed": 14520248764840869051,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-00",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11726114047536782950,
+      "policy_seed": 18440011590345023262,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-00",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16122686211585921870,
+      "policy_seed": 4990840265949310853,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-00",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4323599824262924851,
+      "policy_seed": 5684468579012187465,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-00",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11814689546427683413,
+      "policy_seed": 5215311817260190710,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-01",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12443161832887815019,
+      "policy_seed": 5084567057516191374,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-01",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14505196760536907763,
+      "policy_seed": 17380623458031057169,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-01",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18150513142101833193,
+      "policy_seed": 7536573689829362831,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-01",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2998593721886394979,
+      "policy_seed": 10382688027823004429,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-01",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16793602547677410114,
+      "policy_seed": 3628167417178362776,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-01",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3311676448144122625,
+      "policy_seed": 2171092214396713911,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-02",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6054965872378150810,
+      "policy_seed": 5331982444365263111,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-02",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2969024468008548946,
+      "policy_seed": 7383940252928786548,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-02",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3769655679741359480,
+      "policy_seed": 12411737959891381450,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-02",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12825608538562268898,
+      "policy_seed": 11952082634147582757,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-02",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8143792364130374963,
+      "policy_seed": 5673126438807896098,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-02",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18020321133784118371,
+      "policy_seed": 203731913760771211,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-03",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17144677767492121462,
+      "policy_seed": 15460648052456378002,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-03",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15494405501192809016,
+      "policy_seed": 455511161663233492,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-03",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10391874494035417149,
+      "policy_seed": 17531182497344234565,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-03",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1522299261792775312,
+      "policy_seed": 7983522482774712386,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-03",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9355162299380978036,
+      "policy_seed": 11194410172302909718,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-03",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14286433280621585355,
+      "policy_seed": 1682393459411991183,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-04",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14409632599195708439,
+      "policy_seed": 10246358034967630046,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-04",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8855129448822913245,
+      "policy_seed": 15839925440827182099,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-04",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11605388520151862704,
+      "policy_seed": 10683607905657127646,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-04",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17620802701621407009,
+      "policy_seed": 936733816639563054,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-04",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17131450568526377725,
+      "policy_seed": 8565571062861670070,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-04",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2318897361304041259,
+      "policy_seed": 11446654828969294361,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-05",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6401135183662694446,
+      "policy_seed": 1098606058204163277,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-05",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5839093918462733,
+      "policy_seed": 5670188086578892527,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-05",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3872689174357621099,
+      "policy_seed": 1573454630722765605,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-05",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11291130899287605193,
+      "policy_seed": 15190570653168490971,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-05",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4748565397512746843,
+      "policy_seed": 7059261273299554198,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-05",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12971905407396056582,
+      "policy_seed": 957569818924180513,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-06",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4933508161686970541,
+      "policy_seed": 13757827899698265384,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-06",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8651264155370387333,
+      "policy_seed": 6813782922832651753,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-06",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16767692380502143504,
+      "policy_seed": 4592349641489733564,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-06",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3674866739227866644,
+      "policy_seed": 8081409278748307416,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-06",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12720695355508676840,
+      "policy_seed": 2432849359802441593,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-06",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14013638682562732130,
+      "policy_seed": 10467012833343916848,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-07",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10611596774066494298,
+      "policy_seed": 8829608836062806556,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-07",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 6380874263711889205,
+      "policy_seed": 6680269972045787976,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-07",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10110779997395963995,
+      "policy_seed": 10479033560615038560,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-07",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10595366501512850470,
+      "policy_seed": 10777703680047713157,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-07",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1901664996965353690,
+      "policy_seed": 8375035728021623736,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-07",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15307737139087048496,
+      "policy_seed": 14868912920630738946,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-08",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2765800107977665869,
+      "policy_seed": 3074767342942931238,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-08",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 928024031543097125,
+      "policy_seed": 7433412789058820512,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-08",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 712641931295759117,
+      "policy_seed": 10558378967080032928,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-08",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10276394813929986411,
+      "policy_seed": 8834069861318573629,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-08",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12973954501946507684,
+      "policy_seed": 7485589414139135967,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-08",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8529565484685296466,
+      "policy_seed": 17007691447404571044,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-09",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10055346477634318217,
+      "policy_seed": 18255524599749479300,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-09",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12498020850723003937,
+      "policy_seed": 16772913818939502998,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-09",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2633813830868559754,
+      "policy_seed": 16691363632739458789,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-09",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15265870511401172551,
+      "policy_seed": 10780636042916523708,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-09",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2465063878904982295,
+      "policy_seed": 10235068537408243907,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-09",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1684293209664571696,
+      "policy_seed": 5781909002816820643,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-10",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4878059181622034917,
+      "policy_seed": 11716125457635656472,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-10",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15022564181328102690,
+      "policy_seed": 8861647668785395066,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-10",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8754636741675045069,
+      "policy_seed": 8899932817479716507,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-10",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 18348164575910549112,
+      "policy_seed": 10102829762746923689,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-10",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3443582352456504844,
+      "policy_seed": 1887766971758994410,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-10",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17728042135885099835,
+      "policy_seed": 7542543360145177627,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-11",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8031310763254812811,
+      "policy_seed": 17498653923820405463,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-11",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2051086679058452195,
+      "policy_seed": 2730191174326611041,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-11",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9084772149318311729,
+      "policy_seed": 15684575326183913483,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-11",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8955971597905302683,
+      "policy_seed": 8781347132247605420,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-11",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17078330099516147291,
+      "policy_seed": 10614633305440858088,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-11",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8630870016505225664,
+      "policy_seed": 9145533824333518006,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-12",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9594095673598816008,
+      "policy_seed": 2183286031504704156,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-12",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 630101834798711395,
+      "policy_seed": 579310454550991097,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-12",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5433516503056523408,
+      "policy_seed": 6883982737489557684,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-12",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9007643066090111499,
+      "policy_seed": 5432022846256069882,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-12",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 645498235053583674,
+      "policy_seed": 17646407165633049126,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-12",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7483197460459905824,
+      "policy_seed": 9614366079850168767,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-13",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3552815906080766406,
+      "policy_seed": 645799304433431661,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-13",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11947698235096146271,
+      "policy_seed": 1741620088270994668,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-13",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14594046430384677579,
+      "policy_seed": 3457646552477373940,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-13",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14234092833163035112,
+      "policy_seed": 11453733248059174386,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-13",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12589940102273864427,
+      "policy_seed": 6390077660292198169,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-13",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4061952885197782893,
+      "policy_seed": 14546810835074360810,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-14",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14814163588965674379,
+      "policy_seed": 6222630115172265993,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-14",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9559477927934202230,
+      "policy_seed": 4517880868240277284,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-14",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9855256500038975930,
+      "policy_seed": 13645896149380975728,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-14",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4332742993368288497,
+      "policy_seed": 11062991350471121882,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-14",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13261813708460449056,
+      "policy_seed": 11067386883872782985,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-14",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1549612196460854665,
+      "policy_seed": 8837757664035815105,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-15",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4736753007483341265,
+      "policy_seed": 5313396902340507004,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-15",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4871367774074828930,
+      "policy_seed": 2296525248561600216,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-15",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16462686646543349043,
+      "policy_seed": 6925003600321510260,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-15",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1203137476758000659,
+      "policy_seed": 6680944766811329900,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-15",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4397457283705081679,
+      "policy_seed": 16022814795032140309,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-15",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6017676306437517849,
+      "policy_seed": 18432555320811454627,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-16",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4866570880762177047,
+      "policy_seed": 5714022044524376377,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-16",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16637670485270016293,
+      "policy_seed": 15011440644716785752,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-16",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 608627929513399184,
+      "policy_seed": 14594466214120928359,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-16",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15034814272005491365,
+      "policy_seed": 13264152245910908077,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-16",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 126684662094296855,
+      "policy_seed": 9754360126523511751,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-16",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6766888557765618136,
+      "policy_seed": 9109213976496290901,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-17",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1183262015720703672,
+      "policy_seed": 4751947769726669262,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-17",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2239844855974096486,
+      "policy_seed": 14662882363303502037,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-17",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4150058386949090749,
+      "policy_seed": 7392434925478970221,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-17",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12612422993922129533,
+      "policy_seed": 16781844500368712784,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-17",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 7245578730079291474,
+      "policy_seed": 5680793870224481261,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-17",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17427789948762366449,
+      "policy_seed": 41236584346416360,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-18",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17182959772593500287,
+      "policy_seed": 13151150843446430116,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-18",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17931553825147687483,
+      "policy_seed": 18352835355252522672,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-18",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17105994460046438840,
+      "policy_seed": 11526514540669215479,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-18",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7848382767677970263,
+      "policy_seed": 13312218176447228951,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-18",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3033227481333762163,
+      "policy_seed": 2684733015159451272,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-18",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11338470146281474105,
+      "policy_seed": 10234011107182272837,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-19",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13736396240808153699,
+      "policy_seed": 9425983257705642258,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-19",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1426279500000019532,
+      "policy_seed": 16817549397273648624,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-19",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9003350537197274047,
+      "policy_seed": 5850640072659974745,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-19",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1249194053291862918,
+      "policy_seed": 13221850398074651680,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-19",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9632346219340687735,
+      "policy_seed": 7978200402712127028,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-19",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13344372074612769141,
+      "policy_seed": 11693297575897414636,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-20",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6839178600477444976,
+      "policy_seed": 4565180801678992488,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-20",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9009275148857555929,
+      "policy_seed": 17337114789494991667,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-20",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15401808510291195848,
+      "policy_seed": 14316610569326452719,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-20",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9945235505335681765,
+      "policy_seed": 16460096850583689163,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-20",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 7200497295178555606,
+      "policy_seed": 3944589009390064949,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-20",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1334540598383971912,
+      "policy_seed": 16307781679402921700,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-21",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13257427698039886212,
+      "policy_seed": 16336797973132899919,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-21",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12286879921764476818,
+      "policy_seed": 2644830800550290528,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-21",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15905287192303171771,
+      "policy_seed": 12452663173413124240,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-21",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15656788025316924473,
+      "policy_seed": 16007744445355582505,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-21",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15991363115311422119,
+      "policy_seed": 10391182088148180485,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-21",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12700853666811708991,
+      "policy_seed": 17433928904855466831,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-22",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 734975947195072374,
+      "policy_seed": 917735826837042331,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-22",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4020788020640894190,
+      "policy_seed": 17811004301897982355,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-22",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10677197035941702051,
+      "policy_seed": 6366326618922378432,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-22",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10188545461152636326,
+      "policy_seed": 145360370932771617,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-22",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13757758903546839802,
+      "policy_seed": 4322654747905260131,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-22",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12633983578790143749,
+      "policy_seed": 965170645305659032,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-23",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 18416674615925362582,
+      "policy_seed": 2720184186650004343,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-23",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9871305368680745812,
+      "policy_seed": 4870907100380941342,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-23",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2957947457474074987,
+      "policy_seed": 455939785463776580,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-23",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8914939814043782974,
+      "policy_seed": 15492967165307848025,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-23",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12867175412672613753,
+      "policy_seed": 2713508257592969887,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-23",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1074829532463185335,
+      "policy_seed": 15880976508590649745,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-24",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13986874726058508514,
+      "policy_seed": 9612555054621573747,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-24",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15493170912391635368,
+      "policy_seed": 9424313876085998776,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-24",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16103055517661717733,
+      "policy_seed": 11643215541391471862,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-24",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9167323228305719345,
+      "policy_seed": 9210666246508166323,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-24",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14137990952453794154,
+      "policy_seed": 794358042228530546,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-24",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7065148697244149319,
+      "policy_seed": 1994470116664075863,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-25",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10700999689603027248,
+      "policy_seed": 6286981465696613169,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-25",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5039555397312203431,
+      "policy_seed": 8539123925952623848,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-25",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5999003877440947092,
+      "policy_seed": 16206627555845144649,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-25",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 700644714595001271,
+      "policy_seed": 6699499255172979414,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-25",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14841061266579527551,
+      "policy_seed": 2880043089010488577,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-25",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12194250204055879291,
+      "policy_seed": 895396085180718605,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-26",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11988468474815072755,
+      "policy_seed": 3462559797032543472,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-26",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15674683794538283124,
+      "policy_seed": 15367846242926916332,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-26",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5759184186705397182,
+      "policy_seed": 17561060241324227481,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-26",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2834859013526786955,
+      "policy_seed": 3961917337871525254,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-26",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3014362273807229307,
+      "policy_seed": 15324847255933297641,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-26",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5457568212939840399,
+      "policy_seed": 13031542189544647062,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-27",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 706191531497182399,
+      "policy_seed": 3404759696108465446,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-27",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4398245195127419843,
+      "policy_seed": 742063126161580146,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-27",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16826512483731329442,
+      "policy_seed": 293581981027660469,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-27",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14703288576095014830,
+      "policy_seed": 18339623218008620423,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-27",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15427627450025475800,
+      "policy_seed": 9386609740039539124,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-27",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7313568653935754677,
+      "policy_seed": 3058483524513748178,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-28",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7616302312633964009,
+      "policy_seed": 6952271477114685659,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-28",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 6730891070011522804,
+      "policy_seed": 12404381783062196364,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-28",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6794274993737121233,
+      "policy_seed": 12664583308858386818,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-28",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 459996958131661312,
+      "policy_seed": 12974918792172519471,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-28",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10202629379514848458,
+      "policy_seed": 7360328420536608007,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-28",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16001069270644718440,
+      "policy_seed": 14372353099525970949,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-29",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5896605814086527369,
+      "policy_seed": 6486357518153292152,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-29",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1380820353800059155,
+      "policy_seed": 11932295894528690641,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-29",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1802733473466116275,
+      "policy_seed": 16733418471421254885,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-29",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17151126772419392785,
+      "policy_seed": 14819474806393964919,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-29",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13361408977455962257,
+      "policy_seed": 8013550008464078978,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-29",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18283247392727905373,
+      "policy_seed": 13138501399064935004,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-30",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2430317242858890748,
+      "policy_seed": 16044348603368894602,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-30",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 939012189041018185,
+      "policy_seed": 16965645665418716684,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-30",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6265286870089610294,
+      "policy_seed": 7424332517265929091,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-30",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 588816831316988774,
+      "policy_seed": 4636632376692874090,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-30",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 809815202807376731,
+      "policy_seed": 391988090606642743,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-30",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15670431799546813191,
+      "policy_seed": 1757211959090072907,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-31",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17407771385288681,
+      "policy_seed": 11544673920155065960,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-31",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14304597427994303142,
+      "policy_seed": 12492307933836292437,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-31",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16128977415599480977,
+      "policy_seed": 8296140705099142029,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-31",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11358131557681854681,
+      "policy_seed": 603472430652230223,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-31",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13264399739190082845,
+      "policy_seed": 10198754711732431685,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-31",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4659984330567759230,
+      "policy_seed": 13088834728072264618,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-32",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6028490786922545232,
+      "policy_seed": 14934770411552782348,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-32",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 908259365984568340,
+      "policy_seed": 658787599427571667,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-32",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3818865897943192522,
+      "policy_seed": 8448273517107390008,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-32",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9162572159962285660,
+      "policy_seed": 16485354542360158350,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-32",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16394899144963452920,
+      "policy_seed": 5953832850388982411,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-32",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11974249430985503393,
+      "policy_seed": 1054157577529850247,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-33",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10320677902750091834,
+      "policy_seed": 7384818290489242742,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-33",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 449485209611808068,
+      "policy_seed": 13361489699570931026,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-33",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 184868282086158633,
+      "policy_seed": 3699227513879017647,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-33",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8693164006378239390,
+      "policy_seed": 2106946140732244161,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-33",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4109588918434824438,
+      "policy_seed": 10438267891352345534,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-33",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16340929693687932312,
+      "policy_seed": 4142945142822119380,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-34",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17707297353157782553,
+      "policy_seed": 6659368289025288561,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-34",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16357944144618593956,
+      "policy_seed": 15324010031914821559,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-34",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 195434867982782570,
+      "policy_seed": 5336897527802886692,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-34",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2505969853099570497,
+      "policy_seed": 11526383261678391934,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-34",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6381073520495538585,
+      "policy_seed": 3319602765634677102,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-34",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7410148091985747904,
+      "policy_seed": 12022052970732368215,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-35",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1974935810592155083,
+      "policy_seed": 3489793807660792124,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-35",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10648215286783071854,
+      "policy_seed": 15404032353891169148,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-35",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13120772085757660297,
+      "policy_seed": 2717141913491275996,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-35",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4481404386847320670,
+      "policy_seed": 8287987567920657233,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-35",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3386009573125179641,
+      "policy_seed": 3035203945504038795,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-35",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1581860130135530661,
+      "policy_seed": 6458647326650939635,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-36",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8342031180417047496,
+      "policy_seed": 7766662645537422956,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-36",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 3014081226483721935,
+      "policy_seed": 8724488489755658618,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-36",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14132178197772011095,
+      "policy_seed": 1302154795460719668,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-36",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5854195127772381887,
+      "policy_seed": 3099529667111375851,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-36",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6769956428705332072,
+      "policy_seed": 11911352626960905535,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-36",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 76484614686507663,
+      "policy_seed": 3676848812922970797,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-37",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1670186479963331855,
+      "policy_seed": 9508377228619379735,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-37",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9837916199765152966,
+      "policy_seed": 6088452493056999752,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-37",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 878723270430091325,
+      "policy_seed": 11755267646487842779,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-37",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6955326203119811934,
+      "policy_seed": 4479947040119692524,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-37",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2642992554113011868,
+      "policy_seed": 2971813325529910844,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-37",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12779158496295609418,
+      "policy_seed": 16614693329715607656,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-38",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4886587775561776700,
+      "policy_seed": 17518479037782010459,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-38",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11079150745951626461,
+      "policy_seed": 14545074292583921562,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-38",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12774861725694461615,
+      "policy_seed": 16832435675589834426,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-38",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6736046021823750335,
+      "policy_seed": 8525687313438287109,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-38",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4572411815389306911,
+      "policy_seed": 6582073119666395346,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-38",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13368787072424737152,
+      "policy_seed": 16526277837977388762,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-39",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2329787150038016802,
+      "policy_seed": 1149245288414913683,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-39",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15690962076403697153,
+      "policy_seed": 2729196938513612851,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-39",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7483619506988355608,
+      "policy_seed": 7936096546287671761,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-39",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13346072652390965035,
+      "policy_seed": 3143022943071128819,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-39",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5419791445202428327,
+      "policy_seed": 14002216566505701436,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-39",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7041033566782355698,
+      "policy_seed": 17620160477525303871,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-40",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 620596582667719443,
+      "policy_seed": 14018600620747046256,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-40",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4971904515364098095,
+      "policy_seed": 15570771597033038244,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-40",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8717899764710447638,
+      "policy_seed": 16563715626777933977,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-40",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3994620555636382266,
+      "policy_seed": 18259340893782918716,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-40",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11551330859924626330,
+      "policy_seed": 2358983469500669231,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-40",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4002758726269916982,
+      "policy_seed": 8266675026662804986,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-41",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 461843640925797988,
+      "policy_seed": 12859429319984615120,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-41",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14087725794891615239,
+      "policy_seed": 15241802911362167017,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-41",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17884012867899907243,
+      "policy_seed": 11717525796398260053,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-41",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8277593855904020700,
+      "policy_seed": 16207598674234878085,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-41",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14296715433392450482,
+      "policy_seed": 12326080335344540981,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-41",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1965913679182379158,
+      "policy_seed": 5135319067892716408,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-42",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13058007195825061742,
+      "policy_seed": 14194137418564053227,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-42",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1368978169778367151,
+      "policy_seed": 770293383569504531,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-42",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4678799676653867998,
+      "policy_seed": 16209340751459373573,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-42",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 735855357202949961,
+      "policy_seed": 495349332770045804,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-42",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16621158439806477083,
+      "policy_seed": 2458383865008048873,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-42",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13890971997734121814,
+      "policy_seed": 5410987518413222866,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-43",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17528328523949894951,
+      "policy_seed": 5646660280540817666,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-43",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 3657589390754571792,
+      "policy_seed": 2704220490974108075,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-43",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18430038208965578471,
+      "policy_seed": 12792813243269134522,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-43",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5978116330176445011,
+      "policy_seed": 16590906140653462927,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-43",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16244430031584229086,
+      "policy_seed": 2488707906253223762,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-43",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18088520313494418349,
+      "policy_seed": 17436895248347448008,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-44",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11523749493865389528,
+      "policy_seed": 10941801854333061804,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-44",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5136687331643496572,
+      "policy_seed": 6802990651151669639,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-44",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12670620205938167633,
+      "policy_seed": 18416742315527675735,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-44",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7271081745966576970,
+      "policy_seed": 18018580693631560127,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-44",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9051858326567685546,
+      "policy_seed": 13226277193772169817,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-44",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12775616888558401986,
+      "policy_seed": 16630607500313710532,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-45",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10960301493495432712,
+      "policy_seed": 15386692668404257009,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-45",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10789947407992038412,
+      "policy_seed": 14951914193247452478,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-45",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13930471783138999701,
+      "policy_seed": 3888067095589193637,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-45",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17041241167401248784,
+      "policy_seed": 5492338236353566658,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-45",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4707494060265699713,
+      "policy_seed": 4735228663712150466,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-45",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6259913346784859811,
+      "policy_seed": 798316982482194572,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-46",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3353325306829207265,
+      "policy_seed": 16986800410234249792,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-46",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2795000782632045270,
+      "policy_seed": 15103136107127907889,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-46",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2512998125896190095,
+      "policy_seed": 17006248002422514644,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-46",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4015776941292654792,
+      "policy_seed": 7439448223770038559,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-46",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11413469249481204303,
+      "policy_seed": 2632978134198665066,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-46",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1279072582519009477,
+      "policy_seed": 13781992771502827998,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-47",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11369493592390920822,
+      "policy_seed": 5680724481865619134,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-47",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 6985754105140946324,
+      "policy_seed": 17998274552686850666,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-47",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3688454091648524105,
+      "policy_seed": 12733298042904961371,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-47",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11842541292845175456,
+      "policy_seed": 16426845368307004328,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-47",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13582045722944796331,
+      "policy_seed": 5868173957982617819,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-47",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 49273617255553043,
+      "policy_seed": 16530340439780035508,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-48",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5310313921365142840,
+      "policy_seed": 14193172103578076259,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-48",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 32092343607444621,
+      "policy_seed": 15692943503104741106,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-48",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6976986548866741960,
+      "policy_seed": 1990618311704852406,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-48",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6887260664047019544,
+      "policy_seed": 16792960812133923971,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-48",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 439852472512056972,
+      "policy_seed": 7703979370913234360,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-48",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18358874547429786245,
+      "policy_seed": 10815583337697795374,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-49",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6859587802373409781,
+      "policy_seed": 13526337056214452658,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-49",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11269170787854482317,
+      "policy_seed": 5130960871837054721,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-49",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8769196697268078840,
+      "policy_seed": 2305665044709374506,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-49",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 286370980524765185,
+      "policy_seed": 2403197349183997235,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-49",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3083151969306087339,
+      "policy_seed": 9872072517513081225,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "fcc-49",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1728711947444074594,
+      "policy_seed": 6454941709217308972,
+      "group_id": "cooperation"
+    }
+  ]
+}

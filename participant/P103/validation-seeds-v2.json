@@ -1,0 +1,4807 @@
+{
+  "schedule_schema_version": "coverage-schedule/1.0",
+  "schedule_id": "p103-validation-seeds-v2",
+  "schedule_hash": "11d4ba8bef14a6d8f54c333dd562614f0feca3afa6ab3604f844a4ddae31f6ff",
+  "records": [
+    {
+      "case_id": "v2b-00",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16439518680581470465,
+      "policy_seed": 12233259629688820368,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-00",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14504480355327686710,
+      "policy_seed": 9560926058059707952,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-00",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15132341719740516066,
+      "policy_seed": 18177604165805572545,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-00",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10586648380655903407,
+      "policy_seed": 6940441271224234433,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-00",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10919920268511147112,
+      "policy_seed": 8294129868065778762,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-00",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4918480234175063045,
+      "policy_seed": 6037854562263958109,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-01",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17557301253220581633,
+      "policy_seed": 18351137897484950765,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-01",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8402049630196120745,
+      "policy_seed": 7801513244265218365,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-01",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14889337709610913648,
+      "policy_seed": 11727182222509828256,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-01",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1056998804407486028,
+      "policy_seed": 8617325087618112342,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-01",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17090168996988294831,
+      "policy_seed": 7711997886858343884,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-01",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5582605035476348198,
+      "policy_seed": 11628702439959992317,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-02",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 18070497829971100103,
+      "policy_seed": 15944095665708223981,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-02",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1453448631022328446,
+      "policy_seed": 15986864700346467901,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-02",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2274700948043612045,
+      "policy_seed": 2403486169027630277,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-02",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7525204546988043320,
+      "policy_seed": 5287357891847940869,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-02",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5609403204442129834,
+      "policy_seed": 7718672190834261177,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-02",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10745066031052274706,
+      "policy_seed": 15409380447714208247,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-03",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14351768606652313444,
+      "policy_seed": 10212180723051840338,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-03",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 225920805106349877,
+      "policy_seed": 3781773411700121436,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-03",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9569069715874058417,
+      "policy_seed": 9632530363865710371,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-03",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2988722323598795384,
+      "policy_seed": 12568559760300773327,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-03",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14158051561410626687,
+      "policy_seed": 15822028421258714979,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-03",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4208811156145639883,
+      "policy_seed": 7135474007127228143,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-04",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16001324767120895387,
+      "policy_seed": 6210737161670097440,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-04",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16657663187037942710,
+      "policy_seed": 14323315611438364513,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-04",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16231451829152685912,
+      "policy_seed": 6669842864343993115,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-04",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1265964547336068181,
+      "policy_seed": 15644426375425257732,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-04",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8758812696237001498,
+      "policy_seed": 7526798549410562034,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-04",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15499817741409805671,
+      "policy_seed": 2345589426003530406,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-05",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12815702900503841586,
+      "policy_seed": 4292880282990927873,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-05",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2320849234206555326,
+      "policy_seed": 2182691015663050311,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-05",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2851610855378144807,
+      "policy_seed": 8696601180885847392,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-05",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4310253859891941444,
+      "policy_seed": 3272878741549083620,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-05",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1813497329071184301,
+      "policy_seed": 1395334662553583577,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-05",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6966001402021555173,
+      "policy_seed": 9104498465487982452,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-06",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10326016000436872424,
+      "policy_seed": 7220851602045796224,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-06",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2053449616041338890,
+      "policy_seed": 14779816009618680688,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-06",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15861214689546457207,
+      "policy_seed": 8434666768894328248,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-06",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16150016200955497029,
+      "policy_seed": 11085967631338683409,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-06",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 18095236879024273854,
+      "policy_seed": 1233742339172172362,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-06",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3788048655062106731,
+      "policy_seed": 11547300306687865789,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-07",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 467164012484414561,
+      "policy_seed": 18148101581054228364,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-07",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1885836086466691398,
+      "policy_seed": 12311349176470065530,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-07",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15395649764580237686,
+      "policy_seed": 2262287264379193286,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-07",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5693139448461838948,
+      "policy_seed": 1789287268653936676,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-07",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 7827332488888356328,
+      "policy_seed": 6147149731870306802,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-07",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7161792655027169732,
+      "policy_seed": 11313485070677879464,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-08",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1442747012193094590,
+      "policy_seed": 6203428504052762895,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-08",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13159302043696787738,
+      "policy_seed": 1038832441271035194,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-08",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15631323554780000741,
+      "policy_seed": 8965806945318122906,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-08",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5964585232340149848,
+      "policy_seed": 3571174629470848318,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-08",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4924981482633206326,
+      "policy_seed": 7782098409569736213,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-08",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12387063957607287061,
+      "policy_seed": 9091454615511980738,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-09",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10083236835497623831,
+      "policy_seed": 2065864169874367751,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-09",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8548728748697215946,
+      "policy_seed": 15572531280053617032,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-09",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12380304408223028761,
+      "policy_seed": 786900007186093638,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-09",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14853741090735651694,
+      "policy_seed": 10123023806798052048,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-09",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2675588216210464052,
+      "policy_seed": 13786586969128179027,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-09",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6845647630402195690,
+      "policy_seed": 13894423939605354893,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-10",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 291262038365955827,
+      "policy_seed": 1024571078647277380,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-10",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12485327889129131701,
+      "policy_seed": 13033528914750074852,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-10",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13770103207122574185,
+      "policy_seed": 6263966637513792367,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-10",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8531561574231822497,
+      "policy_seed": 7677489707490788885,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-10",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13610893769585172958,
+      "policy_seed": 16337391997805704973,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-10",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16671307315642998655,
+      "policy_seed": 11941660578897743529,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-11",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5944975090326143842,
+      "policy_seed": 1467281661694722223,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-11",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5501338986816161881,
+      "policy_seed": 2433658197630690728,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-11",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3157538733258805657,
+      "policy_seed": 17937152627122686692,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-11",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 530356782182018013,
+      "policy_seed": 10516788191952593390,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-11",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13044338418262127284,
+      "policy_seed": 18212484859661720335,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-11",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7601299402939185127,
+      "policy_seed": 11722134789758725000,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-12",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8526905885865310420,
+      "policy_seed": 11473949535283657745,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-12",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5366660252516895441,
+      "policy_seed": 925892288220620938,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-12",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10668618130456500762,
+      "policy_seed": 8695004070843529504,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-12",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4022117106124907862,
+      "policy_seed": 10117885136892113839,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-12",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2486214914645822314,
+      "policy_seed": 4208045680452072514,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-12",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13320076389353340476,
+      "policy_seed": 16109644814144284095,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-13",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4274148622122961790,
+      "policy_seed": 12444417091502355545,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-13",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17990081554597774035,
+      "policy_seed": 3705046579430539036,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-13",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15290930750527399873,
+      "policy_seed": 14629417677463171862,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-13",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4746788388199928808,
+      "policy_seed": 12267113410162432419,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-13",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 18259868419411939303,
+      "policy_seed": 13550015873577720720,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-13",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1303849479093554704,
+      "policy_seed": 14055041839826575386,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-14",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14429880945485688477,
+      "policy_seed": 17425585084155217139,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-14",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14958838795117532078,
+      "policy_seed": 8723149401235061344,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-14",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7700253790366630316,
+      "policy_seed": 2330933243155761449,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-14",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2368408346166275024,
+      "policy_seed": 9395155796676929887,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-14",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11355742484276085889,
+      "policy_seed": 10356374702777475830,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-14",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10732876148343985615,
+      "policy_seed": 14516762850683957961,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-15",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10453891161171830366,
+      "policy_seed": 1708194450726320091,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-15",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12938920715130381504,
+      "policy_seed": 7900689130991555532,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-15",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12942251585455813674,
+      "policy_seed": 13708497102412584610,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-15",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11318395909290551381,
+      "policy_seed": 16133904918814028518,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-15",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16090239383677061329,
+      "policy_seed": 12006282687061571321,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-15",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7418218731876094992,
+      "policy_seed": 6578618965642650777,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-16",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16387734946748120313,
+      "policy_seed": 10314268761370562520,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-16",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4548260297703448003,
+      "policy_seed": 6721923720903749862,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-16",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18069303948479744158,
+      "policy_seed": 2894098279374977874,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-16",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 897687881184897794,
+      "policy_seed": 10419748759631477655,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-16",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8524181311802239367,
+      "policy_seed": 17302752245836248186,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-16",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11954455506021260564,
+      "policy_seed": 700633609867199396,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-17",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 405374939670753243,
+      "policy_seed": 7846927216723223372,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-17",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14269835917001651708,
+      "policy_seed": 13057232741082909843,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-17",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10297729016821476949,
+      "policy_seed": 18209603539600506006,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-17",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11551004545096584676,
+      "policy_seed": 2837662499108272505,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-17",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11724948479294057831,
+      "policy_seed": 11985223595919981878,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-17",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18330167974317299014,
+      "policy_seed": 11083623077433044045,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-18",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12617163575118267929,
+      "policy_seed": 597457369044205453,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-18",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10652209091523941475,
+      "policy_seed": 15865391975433443115,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-18",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1937338175231004515,
+      "policy_seed": 13544998083412331644,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-18",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8453193705851461378,
+      "policy_seed": 13039068973074265493,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-18",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13086317590675707992,
+      "policy_seed": 1400705396460111296,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-18",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13296078094588514055,
+      "policy_seed": 1467991267606769483,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-19",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4532128059358390132,
+      "policy_seed": 18216166629413680233,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-19",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15900923193012240581,
+      "policy_seed": 3554391251753294414,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-19",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11080015103803456143,
+      "policy_seed": 13802790115963113878,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-19",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 370840337687396530,
+      "policy_seed": 16634343000955016819,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-19",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4896224660339764795,
+      "policy_seed": 10326913921944394936,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-19",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1858897117393583257,
+      "policy_seed": 11229618842664251264,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-20",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3927411620930452639,
+      "policy_seed": 9083765411231495676,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-20",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4355433589901720421,
+      "policy_seed": 43588457856743967,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-20",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2162789792980397731,
+      "policy_seed": 18055849706154047788,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-20",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15620873849976036936,
+      "policy_seed": 16657743250581663806,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-20",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 531924755459711411,
+      "policy_seed": 17099668212336330134,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-20",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9677874861653346005,
+      "policy_seed": 4646136994102773,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-21",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4266910002456072654,
+      "policy_seed": 11446700814273592365,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-21",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11855128929936932387,
+      "policy_seed": 3165171351095786532,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-21",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11324021749888807766,
+      "policy_seed": 12501000969692808119,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-21",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6693052529970564090,
+      "policy_seed": 13489576061090663430,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-21",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13336353999456827187,
+      "policy_seed": 12955354280321936382,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-21",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18118310338727155894,
+      "policy_seed": 2514336503348947636,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-22",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4466850687079511026,
+      "policy_seed": 2889148749130984127,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-22",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13889020592377136095,
+      "policy_seed": 6752422802947262522,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-22",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16183965828231531173,
+      "policy_seed": 14875301051878068043,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-22",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4638094732120274254,
+      "policy_seed": 5592123310769190417,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-22",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16376202022733191107,
+      "policy_seed": 13392866003869727884,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-22",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10738823136747989415,
+      "policy_seed": 13088001109026021930,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-23",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4531477811885165085,
+      "policy_seed": 11672836881259169536,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-23",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9208062192193850993,
+      "policy_seed": 10977191790643985155,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-23",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12376613861627498190,
+      "policy_seed": 10092665807214609259,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-23",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9601853734602208059,
+      "policy_seed": 16050865643317111709,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-23",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13865462511049649514,
+      "policy_seed": 14689335427522801755,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-23",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15693367882066942463,
+      "policy_seed": 10056167714567702643,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-24",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10198524033175222261,
+      "policy_seed": 10360092479553577302,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-24",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8498639634181945413,
+      "policy_seed": 11722609475719219055,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-24",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8511005450353458387,
+      "policy_seed": 16440571938418425070,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-24",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6879724560458018723,
+      "policy_seed": 14629478247331947130,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-24",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8739644995866698936,
+      "policy_seed": 17860861448315211421,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-24",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8118370060355891822,
+      "policy_seed": 17084466896170338750,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-25",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12642649845491912032,
+      "policy_seed": 1871832197884447982,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-25",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2837841640508703826,
+      "policy_seed": 14568761165626661098,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-25",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15514881092829806563,
+      "policy_seed": 1433197477920747563,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-25",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17229128557196927728,
+      "policy_seed": 12252837176102565062,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-25",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12469189371542576117,
+      "policy_seed": 12781874149888731909,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-25",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16451021909599639939,
+      "policy_seed": 8356833017289198671,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-26",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6509579909993094115,
+      "policy_seed": 3679940954700418031,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-26",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14825228798400040354,
+      "policy_seed": 15570913321044459561,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-26",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2209986286759342692,
+      "policy_seed": 2037785770142609681,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-26",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6678643715470274694,
+      "policy_seed": 5259169726820160588,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-26",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5715912907845365463,
+      "policy_seed": 16544854325218153954,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-26",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9486693247012697967,
+      "policy_seed": 17921781868889217909,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-27",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 654656018775268694,
+      "policy_seed": 1157154370943221496,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-27",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7339129691920692352,
+      "policy_seed": 15276190360947501645,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-27",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14689858106161430538,
+      "policy_seed": 15039369907678245335,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-27",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16453280081685392330,
+      "policy_seed": 12752684738382194636,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-27",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14796686039561412093,
+      "policy_seed": 10909001660981588481,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-27",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 682069603034001343,
+      "policy_seed": 9551311446184034909,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-28",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6614182873452433523,
+      "policy_seed": 3251619989956469903,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-28",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11179472878168978611,
+      "policy_seed": 3210224799275367189,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-28",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3357464860633397459,
+      "policy_seed": 17651022106398447339,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-28",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13096441313866967895,
+      "policy_seed": 11776676571358860712,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-28",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11955245267572571500,
+      "policy_seed": 18212688765450033615,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-28",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8344754614348189267,
+      "policy_seed": 12588105645489122607,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-29",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11200812418923582967,
+      "policy_seed": 13269081821027619335,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-29",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16306972301593721573,
+      "policy_seed": 14867718926129367226,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-29",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16461402546606919576,
+      "policy_seed": 263126465498906886,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-29",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5375145358691119122,
+      "policy_seed": 17284098002547602223,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-29",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13673777799004606584,
+      "policy_seed": 49849987634274253,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-29",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18191355780560045145,
+      "policy_seed": 5428663549023434641,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-30",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5379334903400557850,
+      "policy_seed": 15894064151193583551,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-30",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 127561886047769052,
+      "policy_seed": 3022166443044353504,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-30",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10298645151237706349,
+      "policy_seed": 15851769301465727637,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-30",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9063103094238969630,
+      "policy_seed": 15160008473963578912,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-30",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12037068186285980697,
+      "policy_seed": 11207620253254598667,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-30",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6621463320499137718,
+      "policy_seed": 5807519176867259247,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-31",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14144002128410440263,
+      "policy_seed": 6845971721900267368,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-31",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16430530729747259331,
+      "policy_seed": 4603287106557542539,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-31",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9619159592476587269,
+      "policy_seed": 9222554846499066583,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-31",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10492265825669003759,
+      "policy_seed": 5234265176158749195,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-31",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14756057744031466917,
+      "policy_seed": 5807334140136885260,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-31",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18433348947376127405,
+      "policy_seed": 15010649445343070221,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-32",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16162204942166009101,
+      "policy_seed": 7709624913793918352,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-32",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 696649802133338037,
+      "policy_seed": 12843600087491499882,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-32",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8875416360843776828,
+      "policy_seed": 6510239489007444887,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-32",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6546498222859450145,
+      "policy_seed": 6175354646863091673,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-32",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12161451264229942916,
+      "policy_seed": 6330146571615027284,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-32",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7932514468568434892,
+      "policy_seed": 6725993703443056809,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-33",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8966143043985635836,
+      "policy_seed": 7925754324426041883,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-33",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15629263742107804244,
+      "policy_seed": 5045464260183726570,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-33",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2573671538502924220,
+      "policy_seed": 5567356178623730070,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-33",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12669574955364672273,
+      "policy_seed": 2448911983897474544,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-33",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8990310542925904522,
+      "policy_seed": 9619765443575903122,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-33",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13155956827264649656,
+      "policy_seed": 15648019776148393633,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-34",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6919229271561155351,
+      "policy_seed": 11763513469521845834,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-34",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2451530626623140249,
+      "policy_seed": 15757280378479167046,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-34",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12085886464805633825,
+      "policy_seed": 10714478873363749482,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-34",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6379283986821404136,
+      "policy_seed": 16655288001832451371,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-34",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16907808029089039650,
+      "policy_seed": 86818018634132976,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-34",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5919853127323730577,
+      "policy_seed": 3157959049223742306,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-35",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5940865880540132209,
+      "policy_seed": 9324297631989213094,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-35",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1100833478982224315,
+      "policy_seed": 14192485828262766860,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-35",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3255533459496880835,
+      "policy_seed": 911713377881963657,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-35",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4984941633629348374,
+      "policy_seed": 3010456482541841428,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-35",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13973994868829135100,
+      "policy_seed": 7025857415314865300,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-35",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14272697751319760807,
+      "policy_seed": 14989727207046641124,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-36",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1828287441129487004,
+      "policy_seed": 14752895996739524286,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-36",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1860191178630714019,
+      "policy_seed": 11438346693315536098,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-36",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13221957048534381024,
+      "policy_seed": 12788437512824781144,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-36",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6907053811061139291,
+      "policy_seed": 17178076178999433649,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-36",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10032560654630283787,
+      "policy_seed": 1010964864975378267,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-36",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7336065959231733902,
+      "policy_seed": 6977752553008908082,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-37",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10269221808628519247,
+      "policy_seed": 7806192569726897232,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-37",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16578065286844818565,
+      "policy_seed": 2947508416172862679,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-37",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17546584624427593785,
+      "policy_seed": 14506398772146687922,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-37",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2713478369366590702,
+      "policy_seed": 12097211517978007109,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-37",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13344380963126321218,
+      "policy_seed": 2688316132574535640,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-37",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8607072296860904737,
+      "policy_seed": 8880229242398738673,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-38",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10984877903791771840,
+      "policy_seed": 11003883076793606043,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-38",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2017888391803258338,
+      "policy_seed": 11501116012043274579,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-38",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4564227241344622821,
+      "policy_seed": 18011207683383243209,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-38",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11413894163782795466,
+      "policy_seed": 5962616375171479573,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-38",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14007623965425160544,
+      "policy_seed": 9240259953999439778,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-38",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3653666683406002046,
+      "policy_seed": 5580620391460759842,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-39",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2857607408846880854,
+      "policy_seed": 634342781809508554,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-39",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14148990373290988517,
+      "policy_seed": 5281430273863582513,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-39",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8345006973845983581,
+      "policy_seed": 1869123060499644265,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-39",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5154234542422703822,
+      "policy_seed": 573748074890236756,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-39",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8757453702009593883,
+      "policy_seed": 14953379139378037217,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-39",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6494697517827371390,
+      "policy_seed": 12918259056586609632,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-40",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4763966372072324118,
+      "policy_seed": 3998244947777889502,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-40",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9096375410489599209,
+      "policy_seed": 1265169580544900478,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-40",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5566669468346536798,
+      "policy_seed": 10486637878202899823,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-40",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17477919739123689193,
+      "policy_seed": 1336416551471791865,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-40",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2812859291212444312,
+      "policy_seed": 8480922092337503382,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-40",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5440576955269911768,
+      "policy_seed": 2734396388665056996,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-41",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 694039877630937741,
+      "policy_seed": 7110798804806654612,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-41",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1043264166523138484,
+      "policy_seed": 12668591612477295056,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-41",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4977842501895201515,
+      "policy_seed": 2044768807035879192,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-41",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6115603292752513105,
+      "policy_seed": 2479052597229270649,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-41",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12192384762652168736,
+      "policy_seed": 18115329507904170508,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-41",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11384274481020591351,
+      "policy_seed": 6530789868965981316,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-42",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11911102819017930214,
+      "policy_seed": 16008191665480590517,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-42",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8909275778975015223,
+      "policy_seed": 14136657782730046664,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-42",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14948513021731424526,
+      "policy_seed": 7376003363829176532,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-42",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5628916158026840319,
+      "policy_seed": 1484351312877314002,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-42",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 7018145833714281218,
+      "policy_seed": 8469556417956611939,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-42",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4898872976679263417,
+      "policy_seed": 10552858816608135005,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-43",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11613906198296218922,
+      "policy_seed": 16760547511534930224,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-43",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16613647004213914464,
+      "policy_seed": 539073521941823732,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-43",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2674996998834632377,
+      "policy_seed": 14034089715942300413,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-43",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4654217200498234195,
+      "policy_seed": 15389666154451208051,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-43",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5221064712631857856,
+      "policy_seed": 6039512027423050234,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-43",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7118691585807384590,
+      "policy_seed": 18036770695686077772,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-44",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7848683711520440607,
+      "policy_seed": 16291773053100593277,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-44",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16711303761640068116,
+      "policy_seed": 10785204199782226096,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-44",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9545839723855741923,
+      "policy_seed": 7205507276575954156,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-44",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1762049060704038194,
+      "policy_seed": 2468231190806410575,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-44",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16092460129265120590,
+      "policy_seed": 10526172947638929871,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-44",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14251965154307319259,
+      "policy_seed": 9864099713139831481,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-45",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10322922077323706035,
+      "policy_seed": 4963597808347566830,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-45",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10546731177324148417,
+      "policy_seed": 16084217711617278455,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-45",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12865370266625643389,
+      "policy_seed": 2945256241172707344,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-45",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9594010732695071456,
+      "policy_seed": 7488976868230014787,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-45",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2392277081156315270,
+      "policy_seed": 4559646493195511437,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-45",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2985255376811115832,
+      "policy_seed": 16935800192836708079,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-46",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12999323732597046941,
+      "policy_seed": 2326478790768267646,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-46",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8867024985912497493,
+      "policy_seed": 6042909698842166087,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-46",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5056935985845351329,
+      "policy_seed": 10439903624939329984,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-46",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13028391213248749734,
+      "policy_seed": 11328311695165064770,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-46",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2068555387397650903,
+      "policy_seed": 10824975147063321183,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-46",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6705372725556742849,
+      "policy_seed": 7985569956796198692,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-47",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5538658654680341769,
+      "policy_seed": 6990995879209038116,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-47",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10130557352395287024,
+      "policy_seed": 8308816404716112236,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-47",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2895001420464301693,
+      "policy_seed": 2852247496542779271,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-47",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16286877098774002743,
+      "policy_seed": 12237916744161680633,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-47",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6980811642046366832,
+      "policy_seed": 5296242009382427176,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-47",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 108373129720698449,
+      "policy_seed": 9157710415871737283,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-48",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2425028246466865710,
+      "policy_seed": 1936893586906443387,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-48",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10906312218023226164,
+      "policy_seed": 483277785723438516,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-48",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10691034814307519845,
+      "policy_seed": 6359501524974389956,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-48",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12700651098279400179,
+      "policy_seed": 16063916135527483684,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-48",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13323689213551249138,
+      "policy_seed": 14959789995286933581,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-48",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13772181127694904700,
+      "policy_seed": 634379998274901037,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-49",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1595612171322945601,
+      "policy_seed": 17175417940073322947,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-49",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2702622276024459975,
+      "policy_seed": 16902386186964551998,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-49",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2437872650301335973,
+      "policy_seed": 16785041738679831315,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-49",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14841515557878888565,
+      "policy_seed": 17719579382405408243,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-49",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4064488178531996379,
+      "policy_seed": 83796391481255377,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2b-49",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4790392662005482287,
+      "policy_seed": 2005209451464521201,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v2c-00",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8127346476214554871,
+      "policy_seed": 2589803458605454373,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-00",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1776130735049216284,
+      "policy_seed": 13713976718466927083,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-00",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8631586475924806763,
+      "policy_seed": 13674651053404493096,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-00",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1088428194464188286,
+      "policy_seed": 5972764746296631155,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-00",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 7701116153456086717,
+      "policy_seed": 5736708051124724375,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-00",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15513784475090871297,
+      "policy_seed": 12586137328084057164,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-01",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 18386457609221877654,
+      "policy_seed": 16787192485873980398,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-01",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15969401774605465614,
+      "policy_seed": 2867183783135424032,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-01",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2001793196279193618,
+      "policy_seed": 13222522986904084373,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-01",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1229631441603322784,
+      "policy_seed": 9010882489140064149,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-01",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3293119472985554519,
+      "policy_seed": 138798315313164681,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-01",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11643234341020068166,
+      "policy_seed": 9694384452067135942,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-02",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10978458654047887512,
+      "policy_seed": 8453211193043785369,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-02",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8947359676727041864,
+      "policy_seed": 11285672883293241528,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-02",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7534285387474335377,
+      "policy_seed": 9273488101587548184,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-02",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2900301822564142868,
+      "policy_seed": 16058304164277365727,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-02",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2523667392409236296,
+      "policy_seed": 11965195386491731056,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-02",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12634362096643942071,
+      "policy_seed": 12217382144433204309,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-03",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16738008753984190326,
+      "policy_seed": 2183982409412837481,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-03",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10757694883500486764,
+      "policy_seed": 13451215956432236498,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-03",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11512554340854885582,
+      "policy_seed": 13725528157744307912,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-03",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8225793538004103878,
+      "policy_seed": 15537409865216765104,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-03",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17025369567329947202,
+      "policy_seed": 232622003788243037,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-03",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15829670862679502592,
+      "policy_seed": 11074865537010304209,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-04",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4279496645725585736,
+      "policy_seed": 5496351423749026212,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-04",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2074076263100107939,
+      "policy_seed": 16848024639160749181,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-04",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12458216494838546159,
+      "policy_seed": 16526301841917283541,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-04",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3427412008934880605,
+      "policy_seed": 12671518050133525163,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-04",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14653603120064273351,
+      "policy_seed": 336308932846258930,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-04",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12797621482530474460,
+      "policy_seed": 11072524139464200380,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-05",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17743485262485444299,
+      "policy_seed": 12026431333174705385,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-05",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11021214713629644147,
+      "policy_seed": 12774332704263405846,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-05",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12307379809285487524,
+      "policy_seed": 5729173139150325325,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-05",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8190069525265337826,
+      "policy_seed": 16305346049118501754,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-05",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3520992486530831918,
+      "policy_seed": 17518048985558490974,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-05",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12073482174622010713,
+      "policy_seed": 16235399142800350732,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-06",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6355350279371757849,
+      "policy_seed": 17966829215597929496,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-06",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14987845252136529739,
+      "policy_seed": 13049113128983211847,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-06",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16972028013907800997,
+      "policy_seed": 16888528101056342855,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-06",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15130946584383614619,
+      "policy_seed": 9926550399190568816,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-06",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3878031311492446101,
+      "policy_seed": 10401175027650865870,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-06",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6399182026760755971,
+      "policy_seed": 4283877833529824844,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-07",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1987957869331058514,
+      "policy_seed": 18149234316827116778,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-07",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15962738170643444718,
+      "policy_seed": 12340642739141169200,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-07",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1083942225050662991,
+      "policy_seed": 4749856083689996313,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-07",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9197254257730708902,
+      "policy_seed": 7326504031984738853,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-07",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16235525611153389336,
+      "policy_seed": 1055132881978477632,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-07",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8325983186007184986,
+      "policy_seed": 6736840197031625904,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-08",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15877268851306995973,
+      "policy_seed": 8845464677728660517,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-08",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4351143228833078025,
+      "policy_seed": 10421186086131804240,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-08",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13155984019053906209,
+      "policy_seed": 6271133331888212402,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-08",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 29649962085167415,
+      "policy_seed": 8890952295099167010,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-08",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13000032400964602171,
+      "policy_seed": 11838907437812834511,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-08",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15073087806051603313,
+      "policy_seed": 5760447973495473375,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-09",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5988425764134921121,
+      "policy_seed": 2330713206842561994,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-09",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 6578763221675015674,
+      "policy_seed": 5381887477529196822,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-09",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1504738921024155239,
+      "policy_seed": 4913898449579449249,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-09",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5584448035577898652,
+      "policy_seed": 6676217273000721232,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-09",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6341599711914543310,
+      "policy_seed": 3290174097126257937,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-09",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13382814793368235400,
+      "policy_seed": 7705978953963259966,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-10",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11998947095426463542,
+      "policy_seed": 3167018317698259644,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-10",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14421387843962799742,
+      "policy_seed": 16516521932994541316,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-10",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16370373083784148005,
+      "policy_seed": 13128900467760431296,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-10",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17426132702908025022,
+      "policy_seed": 16676000410032276838,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-10",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14770786337331578244,
+      "policy_seed": 15411469635957192867,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-10",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15057923107531594825,
+      "policy_seed": 12411306141707861834,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-11",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4309509659800231993,
+      "policy_seed": 16534131394818394580,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-11",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 6750746756329599162,
+      "policy_seed": 2077714242832639442,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-11",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7283139482884918368,
+      "policy_seed": 9174442129947746821,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-11",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10135373666786836907,
+      "policy_seed": 1229785063801127394,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-11",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15449344110453816296,
+      "policy_seed": 1021379117078916192,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-11",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14817020578491085357,
+      "policy_seed": 1832171056012872584,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-12",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10962012014374728806,
+      "policy_seed": 4809032819524016563,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-12",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2282253597616886966,
+      "policy_seed": 13959959593087064615,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-12",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9852988129301583035,
+      "policy_seed": 14073156873356102215,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-12",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15233675296236045143,
+      "policy_seed": 15659721029541818474,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-12",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3107002093593572755,
+      "policy_seed": 9693469064712382813,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-12",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14066326712437516306,
+      "policy_seed": 8499596355225019835,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-13",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8245308215922731260,
+      "policy_seed": 6415915363212037076,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-13",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15566613986931224078,
+      "policy_seed": 17378534550270511115,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-13",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8838527409492080648,
+      "policy_seed": 13858643793684929236,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-13",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 18369930291112816834,
+      "policy_seed": 2986454396722123770,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-13",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 7449796520716906411,
+      "policy_seed": 15960174980783512712,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-13",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12667327264723627478,
+      "policy_seed": 1327742786576541022,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-14",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16690786963050261460,
+      "policy_seed": 4075227581024587795,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-14",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8826683325255715085,
+      "policy_seed": 10392607245756072232,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-14",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3432248737068768452,
+      "policy_seed": 5981788794087092070,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-14",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13623264428973413166,
+      "policy_seed": 15666351202616580459,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-14",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16564914039763809111,
+      "policy_seed": 6097479894445607300,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-14",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10548437666438869868,
+      "policy_seed": 5256282142330358135,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-15",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10491836192305292278,
+      "policy_seed": 6075353711505686454,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-15",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16908247666638471080,
+      "policy_seed": 4268464521687567892,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-15",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5292054604432289506,
+      "policy_seed": 14933249261582959094,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-15",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8722505285569769354,
+      "policy_seed": 15189777571301800707,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-15",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 480906368945736423,
+      "policy_seed": 2609988173851021201,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-15",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 717579177239231155,
+      "policy_seed": 9988808307062373522,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-16",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12883431479280366282,
+      "policy_seed": 11428902040444569949,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-16",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16154528218646637616,
+      "policy_seed": 3931904311423785248,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-16",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5032410943697868901,
+      "policy_seed": 12918509714200139992,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-16",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2729154297795001974,
+      "policy_seed": 4136455637173891556,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-16",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8565084600069698349,
+      "policy_seed": 3876693394484807784,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-16",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17391529800585531058,
+      "policy_seed": 13133464045934139220,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-17",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10305126639104212419,
+      "policy_seed": 15854983710727406955,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-17",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5363723922086499851,
+      "policy_seed": 9411630870362983017,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-17",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3149418118175954118,
+      "policy_seed": 763413661819297870,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-17",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 18323212515609878492,
+      "policy_seed": 5629416764812001776,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-17",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6746790073008184965,
+      "policy_seed": 3023049729102001972,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-17",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11523597900015009355,
+      "policy_seed": 17247107812647795149,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-18",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1379550039265523190,
+      "policy_seed": 2070862194303557615,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-18",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10262494911152034543,
+      "policy_seed": 17921078773498526435,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-18",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4980760471461021541,
+      "policy_seed": 1939657296643716902,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-18",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1559379107084049163,
+      "policy_seed": 15716203379899722638,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-18",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16900379416811336852,
+      "policy_seed": 6884510688007529897,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-18",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10175940074756846156,
+      "policy_seed": 4940419646949912829,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-19",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11682062154308560332,
+      "policy_seed": 12559029453015006841,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-19",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15803921708927651204,
+      "policy_seed": 18239992326725254752,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-19",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5432843644140022297,
+      "policy_seed": 8125809615821649842,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-19",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11787797389000686634,
+      "policy_seed": 13047290304227423192,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-19",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17369343431974418258,
+      "policy_seed": 8274695252333105616,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-19",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17492342364358858783,
+      "policy_seed": 13003652941658877993,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-20",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17488384297589467016,
+      "policy_seed": 7455435856422478562,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-20",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15738332984521775062,
+      "policy_seed": 14095854259768250780,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-20",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9930055000891902191,
+      "policy_seed": 5681354390533657309,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-20",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2233885617277517499,
+      "policy_seed": 9689463133049385637,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-20",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3096403621560702503,
+      "policy_seed": 3528602957663923730,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-20",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8815271477682672634,
+      "policy_seed": 3026275387897320468,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-21",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11753043356961603953,
+      "policy_seed": 6610723861049229144,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-21",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14092291810287755857,
+      "policy_seed": 17877645710138328891,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-21",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15455074778486326001,
+      "policy_seed": 2917774513425344770,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-21",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16184993506096729616,
+      "policy_seed": 13071805381669899787,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-21",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6749780187928010800,
+      "policy_seed": 14966233531380143305,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-21",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4680915790479582271,
+      "policy_seed": 6468473957890685630,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-22",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8861114377160910361,
+      "policy_seed": 1675295799560058446,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-22",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 816681339958265030,
+      "policy_seed": 12933998808434645217,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-22",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10797273184215030077,
+      "policy_seed": 13763089854119491665,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-22",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17558352534484434053,
+      "policy_seed": 3883456230657021156,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-22",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9853802462323486540,
+      "policy_seed": 11418648180824207282,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-22",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5618454265312705720,
+      "policy_seed": 9839707841043944223,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-23",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10773119564142343664,
+      "policy_seed": 4838480881714345391,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-23",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16968817905033191604,
+      "policy_seed": 16403947997627847361,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-23",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6765833830546083044,
+      "policy_seed": 7434761385313634758,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-23",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8371505265201096167,
+      "policy_seed": 11277350187244341187,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-23",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15296511531411448382,
+      "policy_seed": 2118184652958479781,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-23",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6275339141605050931,
+      "policy_seed": 11792943784555427128,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-24",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4528146218586034998,
+      "policy_seed": 10935395308252929626,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-24",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16904592144827073760,
+      "policy_seed": 14564783618604735052,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-24",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4824107947869138156,
+      "policy_seed": 648269502053346415,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-24",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6642899850267727765,
+      "policy_seed": 5371242044383267140,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-24",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8346508885603917981,
+      "policy_seed": 17649980960028175085,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-24",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5712291065790180535,
+      "policy_seed": 2326515046618125157,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-25",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5384462569129435708,
+      "policy_seed": 2756589466472750204,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-25",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1423474489346912589,
+      "policy_seed": 5769613868995484078,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-25",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16565203992037157630,
+      "policy_seed": 3890353724266219306,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-25",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17617154574006081404,
+      "policy_seed": 4109062895725779486,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-25",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5225923435277608871,
+      "policy_seed": 2716177530934578713,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-25",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12669287613847878462,
+      "policy_seed": 17187444458382102867,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-26",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7997099052617008873,
+      "policy_seed": 17862759748239477051,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-26",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1891096474901905840,
+      "policy_seed": 14118152860999784347,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-26",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4834566327587485557,
+      "policy_seed": 13343495838085295419,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-26",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15608172849110740680,
+      "policy_seed": 4469310324561184826,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-26",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1292945491710671927,
+      "policy_seed": 13023687163840102758,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-26",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10967555261133207722,
+      "policy_seed": 14875423576786522242,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-27",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1725344529916549250,
+      "policy_seed": 3290944509068669428,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-27",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1804066191716716093,
+      "policy_seed": 13936012641190143100,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-27",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11850885643521763381,
+      "policy_seed": 3055991460271302626,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-27",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15968434982796789911,
+      "policy_seed": 14477306857268167188,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-27",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11256257132496969590,
+      "policy_seed": 13766904891981759061,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-27",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 824557043269586913,
+      "policy_seed": 3801792889760782440,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-28",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16991090742957630984,
+      "policy_seed": 197574611164519950,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-28",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4878336894566335874,
+      "policy_seed": 13446577286018367772,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-28",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6818993699643851784,
+      "policy_seed": 5760836078543294862,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-28",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4197944534940338127,
+      "policy_seed": 5032809583212198786,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-28",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12773806714711671933,
+      "policy_seed": 9993968789649677996,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-28",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1055757988724264323,
+      "policy_seed": 17428550394025596187,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-29",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6232618517398189663,
+      "policy_seed": 8708771186650868779,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-29",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1447795468983690390,
+      "policy_seed": 11357141974521901,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-29",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18369975444466121159,
+      "policy_seed": 1663718100643690815,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-29",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10081296177903707144,
+      "policy_seed": 11875356570933283725,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-29",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10435486799361647993,
+      "policy_seed": 2999126302995831019,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-29",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 350664612488612982,
+      "policy_seed": 2205459843126782923,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-30",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10170253734390437024,
+      "policy_seed": 9789836304170613063,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-30",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 18099637450816791209,
+      "policy_seed": 10791685369436540084,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-30",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8548306561364917293,
+      "policy_seed": 1941075159637556959,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-30",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6459156414765260650,
+      "policy_seed": 2887208939529243254,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-30",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3254859094855930773,
+      "policy_seed": 348507361427194560,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-30",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7850419389202848454,
+      "policy_seed": 6170656608404073091,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-31",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1955784985683861942,
+      "policy_seed": 15531290297063001600,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-31",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10726109662489365614,
+      "policy_seed": 8314416833062294864,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-31",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2202483236055882340,
+      "policy_seed": 14929988522740052011,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-31",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8893855358388818112,
+      "policy_seed": 15010833804575068664,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-31",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9715348929726234757,
+      "policy_seed": 371734225712429641,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-31",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5287678675742753642,
+      "policy_seed": 17550713393755578346,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-32",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11052894807112352832,
+      "policy_seed": 3170255044727427298,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-32",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7225651942655963632,
+      "policy_seed": 5851146982242020948,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-32",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4293085286196547976,
+      "policy_seed": 3817460589295743500,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-32",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17873518108530491756,
+      "policy_seed": 16237417516276063157,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-32",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5427623603582410276,
+      "policy_seed": 4015705738770536056,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-32",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13620700928410887032,
+      "policy_seed": 6296144530976587875,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-33",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4311101677684822025,
+      "policy_seed": 4721107479296149474,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-33",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14807005374381543735,
+      "policy_seed": 13597034629000253649,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-33",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 312791301629800009,
+      "policy_seed": 10171549629591985941,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-33",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13677575378848537340,
+      "policy_seed": 13469985885625181669,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-33",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17294527992524895797,
+      "policy_seed": 7108823840995774954,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-33",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9491726264799832138,
+      "policy_seed": 3381261251055355456,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-34",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5297545937405433704,
+      "policy_seed": 17861585246080395198,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-34",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11593790414831144070,
+      "policy_seed": 7960038421605867707,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-34",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6558028970991668542,
+      "policy_seed": 14473315628463019107,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-34",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8252901156418220858,
+      "policy_seed": 7796868528041600036,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-34",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15962623189835472281,
+      "policy_seed": 18121381978302397864,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-34",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7932044201526586163,
+      "policy_seed": 5693258666982492663,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-35",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14942467900088224153,
+      "policy_seed": 5508590889621647666,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-35",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7530648092684243918,
+      "policy_seed": 14685152184905265582,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-35",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1590157491213091569,
+      "policy_seed": 15786814589971863569,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-35",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9538708707661272809,
+      "policy_seed": 16286690257967785850,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-35",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6140944517941314994,
+      "policy_seed": 13694205187475420181,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-35",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7787180059878453771,
+      "policy_seed": 10876475883291016303,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-36",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5052519229194904905,
+      "policy_seed": 1567006208991304307,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-36",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 18065603655398745324,
+      "policy_seed": 10927332754310872948,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-36",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8393549447039257956,
+      "policy_seed": 1005903947726265329,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-36",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4848534206315680088,
+      "policy_seed": 8758538613678879749,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-36",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17320699617125190416,
+      "policy_seed": 2861284357813830489,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-36",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11392579712757148096,
+      "policy_seed": 5215228818523009945,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-37",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13513895292085641949,
+      "policy_seed": 10915200827341754283,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-37",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2063575114581092960,
+      "policy_seed": 14549338484312750088,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-37",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6711659613385863728,
+      "policy_seed": 16927933844488970752,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-37",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15836187206881252051,
+      "policy_seed": 16618675111162871608,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-37",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16008038130398278917,
+      "policy_seed": 5801767012373565526,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-37",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5984323086130950959,
+      "policy_seed": 6956583136379339157,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-38",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10878215636182224654,
+      "policy_seed": 2956248355292565525,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-38",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15889046983705621576,
+      "policy_seed": 7278665309048510147,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-38",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17733941384825411678,
+      "policy_seed": 3070735729784682548,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-38",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11089349410867711127,
+      "policy_seed": 10180211329550654379,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-38",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12150862258861606369,
+      "policy_seed": 4528547776475736595,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-38",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9626915830709774738,
+      "policy_seed": 6940980119558824694,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-39",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17668240823094005703,
+      "policy_seed": 15704488944148828145,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-39",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12045838782912332667,
+      "policy_seed": 9061625456907790019,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-39",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12117192800100445772,
+      "policy_seed": 13516153172930040775,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-39",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10666312421966885701,
+      "policy_seed": 11233661760685916190,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-39",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9470037020025818888,
+      "policy_seed": 795630664644255291,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-39",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15025599398157093785,
+      "policy_seed": 11470112271929728538,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-40",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17199765353529170218,
+      "policy_seed": 17997442609144737983,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-40",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9343802490347913456,
+      "policy_seed": 2705853852820243496,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-40",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9516428959339861330,
+      "policy_seed": 2522490868604670906,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-40",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8462903657024575837,
+      "policy_seed": 5510595875782504291,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-40",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10566125462092836698,
+      "policy_seed": 10204677004177457058,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-40",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8645717804787855342,
+      "policy_seed": 15794662639773462930,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-41",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12063723125298879806,
+      "policy_seed": 3343568779487515416,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-41",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 3710504287562355618,
+      "policy_seed": 14350253547931091565,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-41",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1254668207203788261,
+      "policy_seed": 17984810039845837168,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-41",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14776241044106640319,
+      "policy_seed": 12712313754228000039,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-41",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12062835494071189693,
+      "policy_seed": 7333814906966467900,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-41",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11722807652579243344,
+      "policy_seed": 10692383402111404458,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-42",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13882152549811462632,
+      "policy_seed": 844862297440568222,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-42",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 3474502375505664023,
+      "policy_seed": 14287471862590622867,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-42",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3934269800774158121,
+      "policy_seed": 3833621152404166859,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-42",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13769565285878509773,
+      "policy_seed": 9416688485584588170,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-42",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4186757008388341806,
+      "policy_seed": 18201572594963868414,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-42",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12605207899341868010,
+      "policy_seed": 8154070527194500077,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-43",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9143667038864605325,
+      "policy_seed": 16920094507764669153,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-43",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12805142953169503680,
+      "policy_seed": 9532740886972583102,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-43",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1584130666935666831,
+      "policy_seed": 4899995520513039713,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-43",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15929432532052845182,
+      "policy_seed": 14465478109358153377,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-43",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2730012802268433457,
+      "policy_seed": 2795134377891816676,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-43",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10409199192778167266,
+      "policy_seed": 16566972892228020844,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-44",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17127619334676292894,
+      "policy_seed": 417476527810371777,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-44",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9766770863822451699,
+      "policy_seed": 11572139238051688441,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-44",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13069872506614077699,
+      "policy_seed": 11342263250267617880,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-44",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6614476986729778124,
+      "policy_seed": 5681004457969500465,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-44",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4000340017066110291,
+      "policy_seed": 3506895144889180350,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-44",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12971999723656799468,
+      "policy_seed": 3198291259417765459,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-45",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9066236729652012412,
+      "policy_seed": 10694789885429823673,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-45",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 499401768266072031,
+      "policy_seed": 4665909404605755734,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-45",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11917071188779726728,
+      "policy_seed": 1236674654339126970,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-45",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8026358012691066782,
+      "policy_seed": 10527751682717814100,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-45",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4609648797269322254,
+      "policy_seed": 11816042785861482268,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-45",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16711552834905698519,
+      "policy_seed": 13332088798045458056,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-46",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10229481891223140347,
+      "policy_seed": 2523094582193867140,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-46",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1963513818063212615,
+      "policy_seed": 18035290941031194957,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-46",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9022661751896392228,
+      "policy_seed": 16334206377670127507,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-46",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5364950075030385483,
+      "policy_seed": 15875321472131603593,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-46",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14856692451293406076,
+      "policy_seed": 16273713567993080,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-46",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17400082145150384496,
+      "policy_seed": 7252897000879335289,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-47",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11784104238807861860,
+      "policy_seed": 465934802508841528,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-47",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16338983850053123352,
+      "policy_seed": 8205108404316504851,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-47",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 5949269494837561472,
+      "policy_seed": 894426963763003594,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-47",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12624685415467507713,
+      "policy_seed": 4362681896382249124,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-47",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14247769284621832297,
+      "policy_seed": 88894639902910208,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-47",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14618770447585496716,
+      "policy_seed": 11086546823277031485,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-48",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12640847561609293534,
+      "policy_seed": 10333083449980163857,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-48",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14184371963366408572,
+      "policy_seed": 2931618382593602639,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-48",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4443298475908465471,
+      "policy_seed": 16140798333810465762,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-48",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11950234640952563909,
+      "policy_seed": 13733742879093268361,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-48",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10563645859198511446,
+      "policy_seed": 13425631150930628769,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-48",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17935928575594286152,
+      "policy_seed": 13794281271116143547,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-49",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 18319176657322686580,
+      "policy_seed": 13720782110568461278,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-49",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 6144780004011122054,
+      "policy_seed": 14394940019103395610,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-49",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7205011438380525266,
+      "policy_seed": 16253457088343086523,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-49",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12407183427065850193,
+      "policy_seed": 5862142533179647790,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-49",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17776783127470789713,
+      "policy_seed": 10270673277690762288,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v2c-49",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5816879848854648868,
+      "policy_seed": 9187777212434623467,
+      "group_id": "cooperation"
+    }
+  ]
+}

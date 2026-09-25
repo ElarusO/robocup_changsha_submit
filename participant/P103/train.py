@@ -6,7 +6,7 @@
 one-hot 展开，与评测侧特征顺序不一致）；本文件 FlattenCoverageVecEnv 直接调用
 coverage_bench.spaces.flatten_observation，训练与评测共用同一 flatten 实现。
 
-实现说明（针对实际安装版本 stable-baselines3 2.9.0 / supersuit 3.11.0 的三处适配，
+实现说明（针对实际安装版本 stable-baselines3 2.9.0 / supersuit 3.11.0 的适配，
 flatten 语义与 VecNormalize 设置与设计保持一致）：
 1. AliveAgentsBridge：CoverageParallelEnv.possible_agents 按容量给出（agent_capacity），
    而每回合仅 config.num_agents 个 agent 在场；supersuit 的 pettingzoo_env_to_vec_env_v1
@@ -18,6 +18,8 @@ flatten 语义与 VecNormalize 设置与设计保持一致）：
 3. RecordingVecMonitor：SB3 2.9 的 VecMonitor 不保留历史 episode 回报（也无
    get_episode_rewards()），本子类在 done 时从 info["episode"]["r"] 记录完成回报，
    供训练曲线取最近 100 个 episode 的均值。
+4. 自动重置：每个环境副本从首次显式种子派生后续重置种子，保证整段训练可复现；
+   保留终局 info，并把终局观测展平及标记时间截断，供 PPO 正确计算回合末价值。
 """
 import argparse
 import json
@@ -56,19 +58,29 @@ class AliveAgentsBridge(BaseParallelWrapper):
     def __init__(self, env):
         super().__init__(env)
         self.possible_agents = [f"agent_{i}" for i in range(env.config.num_agents)]
+        self._reset_rng = None
 
     def reset(self, seed=None, options=None):
+        automatic_reset = seed is None and self._reset_rng is not None
+        if seed is not None:
+            self._reset_rng = np.random.default_rng(seed)
+        elif automatic_reset:
+            seed = int(self._reset_rng.integers(0, 2**63, dtype=np.int64))
         obs, infos = self.env.reset(seed=seed, options=options)
         self.possible_agents = list(self.env.agents)
+        if automatic_reset:
+            # SuperSuit 合并终局和重置 info；返回空字典，避免重置数据覆盖终局数据。
+            infos = {agent: {} for agent in self.possible_agents}
         return obs, infos
 
 
 class FlattenCoverageVecEnv(VecEnvWrapper):
     """把 agent 拆分后的 Dict 观测压平为与评测侧完全一致的 104 维向量。"""
 
-    def __init__(self, venv):
+    def __init__(self, venv, horizon: int):
         super().__init__(venv)
         self._spec = get_protocol_spec()
+        self._horizon = int(horizon)
         size = flattened_observation_size(self._spec)
         self.observation_space = gym.spaces.Box(-np.inf, np.inf, (size,), np.float32)
         self._pending_seed = None
@@ -98,6 +110,13 @@ class FlattenCoverageVecEnv(VecEnvWrapper):
     def step_wait(self):
         obs, rewards, dones, infos = self.venv.step_wait()
         stacked = np.stack([flatten_observation(item, self._spec) for item in self._split_batch(obs)])
+        for done, info in zip(dones, infos):
+            if done:
+                terminal = info.get("terminal_observation")
+                if terminal is None:
+                    raise RuntimeError("终局缺少 terminal_observation，无法正确处理时间截断")
+                info["TimeLimit.truncated"] = bool(int(terminal["step_index"]) >= self._horizon)
+                info["terminal_observation"] = flatten_observation(terminal, self._spec)
         return stacked, rewards, dones, infos
 
 
@@ -130,7 +149,7 @@ def build_env_stack(num_vec_envs: int, seed: int, case_id: str = "basic-0"):
     env = AliveAgentsBridge(env)
     env = ss.pettingzoo_env_to_vec_env_v1(env)
     env = ss.concat_vec_envs_v1(env, num_vec_envs=num_vec_envs, num_cpus=0, base_class="stable_baselines3")
-    env = FlattenCoverageVecEnv(env)
+    env = FlattenCoverageVecEnv(env, horizon=case.task_config.horizon)
     env.seed(seed)
     return env
 
