@@ -119,10 +119,13 @@ class RecordingVecMonitor(VecMonitor):
         return self._completed_rewards
 
 
-def build_env_stack(num_vec_envs: int, seed: int):
+def build_env_stack(num_vec_envs: int, seed: int, case_id: str = "basic-0"):
     """构造到 FlattenCoverageVecEnv 为止的训练栈（不含 VecMonitor/VecNormalize）。"""
     suite = load_suite(_PUBLIC_SUITE)
-    case = suite.groups[0].cases[0]
+    matches = [case for group in suite.groups for case in group.cases if case.case_id == case_id]
+    if len(matches) != 1:
+        raise ValueError(f"训练场景不存在或不唯一：{case_id}")
+    case = matches[0]
     env = make_training_env(case.task_config)
     env = AliveAgentsBridge(env)
     env = ss.pettingzoo_env_to_vec_env_v1(env)
@@ -135,13 +138,13 @@ def build_env_stack(num_vec_envs: int, seed: int):
 def train(args):
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
-    flat_env = build_env_stack(args.num_vec_envs, args.seed)
+    flat_env = build_env_stack(args.num_vec_envs, args.seed, args.train_case)
     env = VecNormalize(RecordingVecMonitor(flat_env), norm_obs=True, norm_reward=False, clip_obs=10.0)
     model = PPO(
         "MlpPolicy", env,
         seed=args.seed,
-        n_steps=512, batch_size=256, learning_rate=3e-4,
-        gamma=0.99, gae_lambda=0.95, verbose=1,
+        n_steps=args.n_steps, batch_size=args.batch_size, learning_rate=args.learning_rate,
+        gamma=args.gamma, gae_lambda=0.95, ent_coef=args.ent_coef, verbose=1,
     )
     started = time.time()
     steps_per_iter = max(args.total_steps // args.curve_points, 1)
@@ -177,7 +180,12 @@ def train(args):
         "python_version": platform.python_version(),
         "num_vec_envs": args.num_vec_envs,
         "suite": str(_PUBLIC_SUITE.relative_to(_REPO_ROOT)),
-        "train_case": "basic-0",
+        "train_case": args.train_case,
+        "learning_rate": args.learning_rate,
+        "gamma": args.gamma,
+        "ent_coef": args.ent_coef,
+        "n_steps": args.n_steps,
+        "batch_size": args.batch_size,
     }
     (out_dir / "training_meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"训练完成: {model.num_timesteps} 步, {wall:.1f}s → {out_dir}")
@@ -196,7 +204,7 @@ def check_export(args):
     data = np.load(Path(args.npz))
 
     # 真实环境 rollout 收集未归一化的 104 维观测（与训练路径同栈、同 flatten）
-    env = build_env_stack(args.num_vec_envs, args.seed)
+    env = build_env_stack(args.num_vec_envs, args.seed, args.train_case)
     rng = np.random.default_rng(args.seed + 1)
     raw = []
     obs = env.reset()
@@ -239,6 +247,12 @@ def main():
     parser.add_argument("--curve-points", type=int, default=20)
     parser.add_argument("--num-vec-envs", type=int, default=4)
     parser.add_argument("--seed", type=int, default=TRAINING_SEED_DEFAULT)
+    parser.add_argument("--train-case", choices=("basic-0", "basic-1", "coop-0", "coop-1"), default="basic-0")
+    parser.add_argument("--learning-rate", type=float, default=3e-4)
+    parser.add_argument("--gamma", type=float, default=0.99)
+    parser.add_argument("--ent-coef", type=float, default=0.0)
+    parser.add_argument("--n-steps", type=int, default=512)
+    parser.add_argument("--batch-size", type=int, default=256)
     parser.add_argument("--out", type=Path, default=_REPO_ROOT / "outputs" / "learning-training")
     parser.add_argument("--check-export", action="store_true", help="运行导出一致性检查后退出")
     parser.add_argument("--model-dir", type=Path, default=_REPO_ROOT / "outputs" / "learning-training")

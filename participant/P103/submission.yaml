@@ -6,12 +6,12 @@ entrypoint: "entry:build_policy"
 artifact_dir: "artifacts"
 checkpoint_manifest:
   - path: "artifacts/policy.npz"
-    sha256: "aedfa4443847600df2fd5e59e0942bff0077849f6d27ea163baf8b4b18d5c728"
+    sha256: "6b5c8cc0fc0279a86e3218665e4623eeb10dd4a4b5e75c642933cb87fef6ed51"
     size_bytes: 92186
 inference_lock: "requirements-infer.lock"
 method_type: "learning"
-train_command: "python train.py"
+train_command: "python train.py --total-steps 1000000 --curve-points 10 --seed 7101 --train-case basic-0 --learning-rate 0.0001"
 training_config_paths: []
 report_path: "REPORT.md"
 metadata:
-  description: "参赛模板：SB3 PPO 训练导出 numpy 前向推理（复制本目录并改成你的编号）"
+  description: "P103：SB3 PPO 训练，NumPy 推理；提交模型来自 E009"

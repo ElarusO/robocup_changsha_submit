@@ -111,6 +111,7 @@ def export_model(args) -> None:
         npz=candidate,
         num_vec_envs=int(training_meta["num_vec_envs"]),
         seed=int(training_meta["seed"]),
+        train_case=str(training_meta.get("train_case", "basic-0")),
         num_obs=args.num_obs,
     ))
     info = {

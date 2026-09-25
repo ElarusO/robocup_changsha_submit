@@ -7,7 +7,7 @@ _PROTOCOL_SPEC = get_protocol_spec()
 
 
 class NumpyMLPPolicy:
-    """SB3 PPO 导出权重的 numpy 前向推理（训练见 train.py，导出见 tools/export_learning_baseline.py）。"""
+    """SB3 PPO 导出权重的 NumPy 前向推理（训练见 train.py，导出见 postprocess.py）。"""
 
     def __init__(self, artifact_dir):
         data = np.load(artifact_dir / "policy.npz")
