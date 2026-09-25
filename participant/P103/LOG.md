@@ -1,8 +1,15 @@
 # 实验日志
 
-- P903 学习基线：SB3 PPO（训练栈：make_training_env → pettingzoo_env_to_vec_env_v1 →
-  concat_vec_envs_v1(num_cpus=0) → FlattenCoverageVecEnv（与评测同源 flatten）→ VecMonitor →
-  VecNormalize(norm_obs=True, norm_reward=False, clip_obs=10.0)）。
-- 种子分离：训练种子 7101（训练随机种子与总环境步数记入 REPORT.md）；公开评测种子不用于训练采样。
-- 导出 policy.npz；导出一致性检查（--check-export，max|Δa| ≤ 1e-5）通过后入包。
-- 审计硬拒绝提交内 pickle.load（AT-AUD-02），训练栈归一化统计量由 vecnormalize.pkl 改存 vecnormalize-stats.npz，重跑冒烟管线与导出一致性检查通过。
+## E001：官方模板的首次公开评测（2026-09-25）
+
+- **目的**：确认 P103 初始化目录中的模板策略能通过提交预检和公开评测，作为后续改进的比较基线。
+- **策略来源**：直接使用 `participant/_template/` 复制得到的 PPO 示例策略和自带的 `artifacts/policy.npz`。本次没有由 P103 重新训练或导出模型。
+- **评测对应的代码提交**：`2d0374dc4f8a493bdd95cc657307deb89f2cf4eb`（`chore(P103): 初始化参赛目录`）；模型 SHA-256 为 `aedfa4443847600df2fd5e59e0942bff0077849f6d27ea163baf8b4b18d5c728`。
+- **配置**：`configs/public-suite-v1.yaml`、`configs/public-seeds-v1.json`；评测环境为 Windows、Python 3.12.14。
+- **结果位置**：`outputs/P103/check/`（预检）和 `outputs/P103/eval/`（公开评测）。这两个目录是本地运行产物，不属于提交材料。
+- **预检**：`rejections` 为空；`train.py` 中的 `torch`、`torch.no_grad` 是人工审核扫描提示，不是硬拒绝项。
+- **评测**：运行 ID `run-9c3d814f6d4d`；`status=ok`，8/8 回合均完成 10 步；`provenance=local_preview`；`performance_score=66.66666666666667`。基础组平均覆盖率 0、平均碰撞率 0；协作组平均覆盖率 0.13333333333333336、平均碰撞率 0。
+- **逐场景观察**：`basic-0`、`basic-1`、`coop-0` 的两次运行覆盖率均为 0；`coop-1` 的两次运行覆盖率均为 0.2666666666666667。没有观测到机器人碰撞。
+- **结论与下一步**：模板接口和评测流程已跑通，但公开套件中大多数场景未形成覆盖。下一步先读懂局部观测与动作接口，再针对覆盖率做一个可解释的策略实验。Windows 本地预览结果不等于组织方正式核验成绩。
+
+后续每次实验使用独立结果目录，例如 `outputs/P103/eval-001/`、`outputs/P103/eval-002/`，并在本日志记录代码版本、模型、配置、结果和结论。

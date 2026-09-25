@@ -1,27 +1,25 @@
-# 策略研究报告（参赛模板 · 学习基线示例）
+# P103 策略研究报告（开发中）
 
-## 训练方案
-stable-baselines3 PPO，MlpPolicy [64,64]，观测为与评测同源的 104 维 flatten
-（coverage_bench.spaces.flatten_observation），VecNormalize 仅归一化观测。
-训练环境：coverage_bench.envs.make_training_env，public suite 任务配置（case basic-0），
-独立训练种子序列（默认 7101），公开评测种子不用于训练采样。
+## 当前策略与来源
 
-## 训练成本
-- 总环境步数：24576
-- 训练随机种子：7101
-- wall time：9.0 秒
-- CPU 型号：Windows-11-10.0.26200-SP0
-- 学习曲线：training_curve.csv（每曲线点记录总步数与最近 100 回合平均奖励），
-  冒烟曲线摘录：首行 total_steps=6144, mean_ep_reward_last100=0.560000；末行 total_steps=24576, mean_ep_reward_last100=0.260000
+当前 `entry.py` 和 `artifacts/policy.npz` 来自官方参赛模板。入口使用 NumPy 加载模板提供的 PPO 神经网络权重，对单机器人观测进行展平、归一化和前向计算，再返回二维动作。目前记录的 E001 没有训练、导出或验证新模型；模板自带的训练数字不作为本人的实验结果。
 
-## 模型选择依据
-取训练结束时最终模型（固定策略，不做早停或 checkpoint 挑选）。
+## E001：模板基线
 
-## 导出一致性
-tools/export_learning_baseline.py 导出 policy.npz（权重 + 归一化统计量）；
-train.py --check-export 对 256 个真实环境观测比较 SB3 前向与 numpy 前向的确定性动作，
-覆盖观测预处理、归一化、前向、动作裁剪与 dtype 转换，max|Δa| 实测 8.628e-08（容差 1e-5）。
+- 对应代码提交：`2d0374dc4f8a493bdd95cc657307deb89f2cf4eb`。
+- 模型 SHA-256：`aedfa4443847600df2fd5e59e0942bff0077849f6d27ea163baf8b4b18d5c728`。
+- 公开套件：`configs/public-suite-v1.yaml`，种子文件：`configs/public-seeds-v1.json`。
+- 本地结果：`outputs/P103/eval/result.json`、`outputs/P103/eval/episodes.csv`；预检报告：`outputs/P103/check/audit-report.json`。
+- 运行环境：Windows、Python 3.12.14；评测结果标记为 `local_preview`。
+- 预检 `rejections` 为空；公开评测 8/8 回合成功完成，`performance_score=66.66666666666667`。
 
-## 定位
-给定训练预算下的学习效果与成本参考（spec BD-04）。学习策略未超过 P902 规则基线时，
-如实记录本报告数字，并结合学习曲线检查训练适配、训练预算与奖励设计。
+| 公开测试分组 | 回合数 | 平均覆盖率 | 平均碰撞率 |
+| --- | ---: | ---: | ---: |
+| 基础组 | 4 | 0 | 0 |
+| 协作组 | 4 | 0.13333333333333336 | 0 |
+
+基础组两个场景和协作组 `coop-0` 都没有形成覆盖；协作组 `coop-1` 两次运行的覆盖率均为 0.2666666666666667。这些结果只描述此次公开套件的本地预览，不能当成正式成绩，也不能把总分理解为覆盖率。
+
+## 后续工作
+
+先理解观测、动作和当前模板推理过程，再设计提高覆盖率的策略。每次改动都使用独立的输出目录，并在 `LOG.md` 与 `experiments.csv` 中记录实际运行条件和结果。最终报告将在完成个人策略和对照实验后补充训练或算法细节、资源使用、复现步骤和局限性。
