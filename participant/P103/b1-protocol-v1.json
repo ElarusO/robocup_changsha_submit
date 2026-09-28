@@ -1,0 +1,52 @@
+{
+  "protocol_id": "P103-B1-v1",
+  "frozen_on": "2026-09-25",
+  "base_commit": "e816c5828362408519546915d03b937807b2ea22",
+  "training_implementation": "A2-corrected; record exact code commit and hash at run time",
+  "training": {
+    "suite": "configs/public-suite-v1.yaml",
+    "case_id": "basic-0",
+    "from_scratch": true,
+    "policy": "MlpPolicy",
+    "network_layers": [104, 64, 64, 2],
+    "num_vec_envs": 4,
+    "agents_per_env": 3,
+    "n_steps": 512,
+    "batch_size": 256,
+    "learning_rate": 0.0001,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ent_coef": 0.0,
+    "norm_obs": true,
+    "norm_reward": false,
+    "clip_obs": 10.0,
+    "total_steps_requested": 1000000,
+    "curve_points": 10,
+    "rollout_samples": 6144,
+    "expected_actual_steps_with_current_loop": 1044480,
+    "checkpoint_sample_steps": [313344, 626688, 1044480]
+  },
+  "experiments": [
+    {"experiment_id": "E011", "seed": 7101, "train_output": "outputs/P103/train-E011"},
+    {"experiment_id": "E012", "seed": 7102, "train_output": "outputs/P103/train-E012"},
+    {"experiment_id": "E013", "seed": 7103, "train_output": "outputs/P103/train-E013"}
+  ],
+  "evaluation": {
+    "suite": "participant/P103/validation-suite-v2.yaml",
+    "suite_sha256": "4af36f07d4c1e360476964e92605c538588a678785011e21fc4c08398f4753c4",
+    "seeds": "participant/P103/validation-seeds-v2.json",
+    "seeds_sha256": "e70f9d35916627f09f5954a8c94e9fbcf74271ca932f2d812e99fbef883c5dff",
+    "episodes_per_model": 200,
+    "scoring": "official evaluate_one.py, equal basic/cooperation weight",
+    "primary_comparison": "Use the matched final checkpoint at 1044480 samples for all three seeds; report each score, mean and sample standard deviation",
+    "secondary_checkpoint_rule": "Evaluate all three fixed checkpoints for all seeds; if selecting one shared stopping point, use the highest three-seed mean v2 score, with fewer samples as tie-breaker; report all nine scores"
+  },
+  "historical_reference": {
+    "experiment_id": "E009",
+    "model_sha256": "6b5c8cc0fc0279a86e3218665e4623eeb10dd4a4b5e75c642933cb87fef6ed51",
+    "validation_v2_score": 125.33333333333334,
+    "result": "outputs/P103/validation-v2-E009-001/result.json",
+    "training_implementation": "pre-A2; reference model only, not an identical-code repeat"
+  },
+  "final_confirmation_policy": "Do not evaluate or choose models using the A4 final-confirmation suite during B1-B3"
+}

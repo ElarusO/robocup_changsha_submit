@@ -1,0 +1,50 @@
+{
+  "protocol_id": "P103-C-v1",
+  "frozen_on": "2026-09-26",
+  "decision_basis": {
+    "b1_protocol_sha256": "901bfc8df3f2db6dceb524048d9c114904c9cc2f81a63a724f31739b73056dc8",
+    "b3_summary": "outputs/P103/b3-summary-001/summary.json",
+    "b3_summary_sha256": "17eec5e8e5eda76ac0ba91edc6306676317aea125360850b22a714ee00d491c5",
+    "b3_final_scores": [121.4, 124.39999999999998, 126.66666666666666],
+    "b3_final_mean": 124.15555555555555,
+    "b3_final_sample_standard_deviation": 2.6418287717524795
+  },
+  "training": {
+    "train_case": "mixed-basic0-coop0",
+    "environment_composition": {"basic-0_copies": 2, "coop-0_copies": 2, "agents_per_copy": 3},
+    "training_suite": "configs/public-suite-v1.yaml",
+    "train_script_sha256": "3d8506de922bd5662ed7f0006aeaec68151e7ed57e16aab3ca5c23c58abbd578",
+    "mixed_env_sha256": "2336814f59fec9d09a0f9a61709c75bcfc860d87dc3d406cf00f23c9cf000aa9",
+    "from_scratch": true,
+    "num_vec_envs": 4,
+    "n_steps": 512,
+    "batch_size": 256,
+    "learning_rate": 0.0001,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ent_coef": 0.0,
+    "norm_obs": true,
+    "norm_reward": false,
+    "clip_obs": 10.0,
+    "total_steps_requested": 1000000,
+    "curve_points": 10,
+    "expected_actual_steps": 1044480,
+    "checkpoint_sample_steps": [313344, 626688, 1044480]
+  },
+  "experiments": [
+    {"experiment_id": "E014", "training_seed": 7101, "paired_b_experiment": "E011", "output": "outputs/P103/train-E014"},
+    {"experiment_id": "E015", "training_seed": 7102, "paired_b_experiment": "E012", "output": "outputs/P103/train-E015"},
+    {"experiment_id": "E016", "training_seed": 7103, "paired_b_experiment": "E013", "output": "outputs/P103/train-E016"}
+  ],
+  "evaluation": {
+    "suite": "participant/P103/validation-suite-v2.yaml",
+    "suite_sha256": "4af36f07d4c1e360476964e92605c538588a678785011e21fc4c08398f4753c4",
+    "seeds": "participant/P103/validation-seeds-v2.json",
+    "seeds_sha256": "e70f9d35916627f09f5954a8c94e9fbcf74271ca932f2d812e99fbef883c5dff",
+    "episodes_per_model": 200,
+    "primary_comparison": "Match E014 to E011, E015 to E012, E016 to E013 at 1044480 samples; report each paired difference, mean difference, basic/cooperation coverage and collision",
+    "secondary_checkpoints": "Evaluate all three planned checkpoints on the same development v2 suite; report all scores and do not cherry-pick seeds"
+  },
+  "selection_rule": "Adopt mixed training as a new baseline only if at least two of three matched final scores improve, the mean improves, and neither group's mean coverage has an unexplained material regression; keep E009 submission until evidence is reviewed",
+  "final_confirmation_policy": "Do not use A4 final-confirmation suite to choose training configuration"
+}

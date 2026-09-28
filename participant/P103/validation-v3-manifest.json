@@ -1,0 +1,14 @@
+{
+  "purpose": "new-scene check of C and D inference variants; not A4",
+  "suite_sha256": "ecaf3845a8fecdec18c85ac53ef0be21dbf3c064ee3c2cef7e2aa6909c60524c",
+  "seeds_sha256": "ce2cc765089eb4770736cf31ae35520b26675296226ae49f78033f796c14e8eb",
+  "basic_scenario_seeds": [
+    71000,
+    71049
+  ],
+  "cooperation_scenario_seeds": [
+    81000,
+    81049
+  ],
+  "episodes": 200
+}

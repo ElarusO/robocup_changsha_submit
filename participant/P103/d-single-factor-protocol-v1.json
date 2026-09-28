@@ -1,0 +1,63 @@
+{
+  "protocol_id": "P103-D-trajectory-single-factor-v1",
+  "frozen_on": "2026-09-26",
+  "purpose": "Test target alignment and peer avoidance separately on the three fixed C final models without retraining or changing the formal E009 submission",
+  "entry_base": "participant/P103/entry.py",
+  "entry_base_sha256": "9c9d8b1ce8ee5cef998025065901bd93cdaffda63c8b251f6ba6da10ef87ad3b",
+  "factor_source": "participant/P103/single_factor_policy.py",
+  "factor_source_sha256": "79177a1ace6a12484093ee58e1742b3f63a32cd7844b25716090970b26b8ee7e",
+  "variants": {
+    "target": {
+      "single_change": "Blend the original PPO action with the unit direction to the nearest currently visible target",
+      "blend_fraction": 0.4,
+      "unchanged_when_no_visible_target": true
+    },
+    "avoid": {
+      "single_change": "Add a repulsive action away from currently visible peers within 0.30 distance",
+      "avoid_radius": 0.3,
+      "contact_distance_reference": 0.1,
+      "gain": 1.0,
+      "unchanged_when_no_peer_inside_radius": true
+    }
+  },
+  "models": [
+    {
+      "experiment_id": "E014",
+      "training_seed": 7101,
+      "model": "outputs/P103/post-E0141044480/policy.npz",
+      "model_sha256": "2f4b7ffcbc27f605dd8960b9ac4b077b5969475a4c3acccaf3bd26065bb0c02a",
+      "baseline_result": "outputs/P103/c-v2-E014-1044480/result.json",
+      "baseline_result_sha256": "5f0654383eb47249e61a1c64c41c55ec6c8ae191123fc3f87511ea27792b9200"
+    },
+    {
+      "experiment_id": "E015",
+      "training_seed": 7102,
+      "model": "outputs/P103/post-E0151044480/policy.npz",
+      "model_sha256": "0bde83fe3983920ee50446f218d54a58e886ee609bc00fcfb5b68efc95c11173",
+      "baseline_result": "outputs/P103/c-v2-E015-1044480/result.json",
+      "baseline_result_sha256": "13e0d4bbe8debaacb72df9180c16b70ca24ee1ea5399585ff7fd8bfade9a1c75"
+    },
+    {
+      "experiment_id": "E016",
+      "training_seed": 7103,
+      "model": "outputs/P103/post-E0161044480/policy.npz",
+      "model_sha256": "3439b065c408e526bc2b5359407bef5396fbb4bff1474303908154167e82eda9",
+      "baseline_result": "outputs/P103/c-v2-E016-1044480/result.json",
+      "baseline_result_sha256": "f329bea08160614d6b91892e78d87406033f3b78d1850db1182a2aba10c44937"
+    }
+  ],
+  "evaluation": {
+    "suite": "participant/P103/validation-suite-v2.yaml",
+    "suite_sha256": "4af36f07d4c1e360476964e92605c538588a678785011e21fc4c08398f4753c4",
+    "seeds": "participant/P103/validation-seeds-v2.json",
+    "seeds_sha256": "e70f9d35916627f09f5954a8c94e9fbcf74271ca932f2d812e99fbef883c5dff",
+    "episodes_per_model": 200,
+    "primary_comparison": "Each variant versus its unchanged C model on all development v2 scenes, with paired seed scores, basic/cooperation coverage, collisions and score; no variants combined",
+    "focus_cases_for_explanation_only": ["v2b-02", "v2c-07", "v2c-09"]
+  },
+  "screening_rule": {
+    "target": "Basic coverage improves for at least two of three seeds; mean score loses fewer than 5 points; mean cooperation collision rate does not rise by more than 0.005",
+    "avoid": "Cooperation collision rate falls for at least two of three seeds; mean score loses fewer than 5 points; mean basic coverage does not fall by more than 0.01"
+  },
+  "final_confirmation_policy": "Do not use A4 final-confirmation suite for these development experiments"
+}

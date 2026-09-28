@@ -1,7 +1,9 @@
 """参赛模板训练脚本（学习基线示例）：SB3 PPO，训练环境与评测同源。
 
 在训练专用 venv 内运行（torch/sb3/supersuit 仅训练 venv 安装，评测镜像不含）：
-    .venv-train/Scripts/python.exe train.py --total-steps 1000000 --curve-points 100
+    .venv-train/Scripts/python.exe participant/P103/train.py --total-steps 1000000 \
+        --curve-points 10 --checkpoint-steps 313344 626688 1044480 \
+        --out outputs/P103/train-new
 关键约束：训练栈不用 supersuit 的 flatten_observation_v0（其对 Discrete 字段做
 one-hot 展开，与评测侧特征顺序不一致）；本文件 FlattenCoverageVecEnv 直接调用
 coverage_bench.spaces.flatten_observation，训练与评测共用同一 flatten 实现。
@@ -22,8 +24,13 @@ flatten 语义与 VecNormalize 设置与设计保持一致）：
    保留终局 info，并把终局观测展平及标记时间截断，供 PPO 正确计算回合末价值。
 """
 import argparse
+import hashlib
+from importlib.metadata import version
 import json
+import math
 import platform
+import shutil
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -45,6 +52,7 @@ from coverage_bench.suites import load_suite
 
 _PUBLIC_SUITE = _REPO_ROOT / "configs" / "public-suite-v1.yaml"
 TRAINING_SEED_DEFAULT = 7101  # 训练种子序列，与公开评测种子（public-seeds-v1.json）无关
+_OUTPUTS_DIR = _REPO_ROOT / "outputs" / "P103"
 
 
 class AliveAgentsBridge(BaseParallelWrapper):
@@ -140,6 +148,9 @@ class RecordingVecMonitor(VecMonitor):
 
 def build_env_stack(num_vec_envs: int, seed: int, case_id: str = "basic-0"):
     """构造到 FlattenCoverageVecEnv 为止的训练栈（不含 VecMonitor/VecNormalize）。"""
+    if case_id == "mixed-basic0-coop0":
+        from mixed_env import build_mixed_env_stack
+        return build_mixed_env_stack(build_env_stack, num_vec_envs, seed)
     suite = load_suite(_PUBLIC_SUITE)
     matches = [case for group in suite.groups for case in group.cases if case.case_id == case_id]
     if len(matches) != 1:
@@ -154,60 +165,181 @@ def build_env_stack(num_vec_envs: int, seed: int, case_id: str = "basic-0"):
     return env
 
 
-def train(args):
-    out_dir = Path(args.out)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    flat_env = build_env_stack(args.num_vec_envs, args.seed, args.train_case)
-    env = VecNormalize(RecordingVecMonitor(flat_env), norm_obs=True, norm_reward=False, clip_obs=10.0)
-    model = PPO(
-        "MlpPolicy", env,
-        seed=args.seed,
-        n_steps=args.n_steps, batch_size=args.batch_size, learning_rate=args.learning_rate,
-        gamma=args.gamma, gae_lambda=0.95, ent_coef=args.ent_coef, verbose=1,
-    )
-    started = time.time()
-    steps_per_iter = max(args.total_steps // args.curve_points, 1)
-    curve_rows = []
-    while model.num_timesteps < args.total_steps:
-        # SB3 2.9 在 reset_num_timesteps=False 时把 learn 的 total_timesteps 视为相对增量
-        # （内部再加 num_timesteps），故这里直接传步长本身，等价于每次推进 steps_per_iter 步。
-        model.learn(total_timesteps=steps_per_iter, reset_num_timesteps=False)
-        ep_rewards = env.get_episode_rewards()
-        mean100 = float(np.mean(ep_rewards[-100:])) if ep_rewards else float("nan")
-        curve_rows.append((model.num_timesteps, mean100))
-        print(f"[curve] steps={model.num_timesteps} mean_ep_reward(last100)={mean100:.4f}")
-    wall = time.time() - started
+def _sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as source:
+        for chunk in iter(lambda: source.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
-    model.save(str(out_dir / "model"))
-    # 归一化统计量直接落 npz（提交源码禁 pickle——审计 AT-AUD-02 硬拒绝 pickle.load）
+
+def _git_value(*arguments: str) -> str | None:
+    result = subprocess.run(["git", *arguments], cwd=_REPO_ROOT, capture_output=True, text=True, check=False)
+    return result.stdout.strip() if result.returncode == 0 else None
+
+
+def _checked_output_path(value: Path) -> Path:
+    out_dir = (value if value.is_absolute() else _REPO_ROOT / value).resolve()
+    root = _OUTPUTS_DIR.resolve()
+    if out_dir == root or not out_dir.is_relative_to(root):
+        raise ValueError(f"训练输出必须是 outputs/P103/ 下的独立子目录：{out_dir}")
+    if out_dir.exists():
+        raise FileExistsError(f"训练输出目录已存在，拒绝覆盖：{out_dir}")
+    return out_dir
+
+
+def _save_checkpoint(out_dir: Path, model: PPO, env: VecNormalize, meta: dict, requested_targets: list[int]) -> dict:
+    actual_steps = int(model.num_timesteps)
+    checkpoint_dir = out_dir / f"checkpoint-{actual_steps}"
+    checkpoint_dir.mkdir(exist_ok=False)
+    model.save(str(checkpoint_dir / "model"))
+    # 网络与统计量在同一次 learn 返回后、下一次采样前保存，二者属于同一检查点。
     np.savez(
-        out_dir / "vecnormalize-stats.npz",
+        checkpoint_dir / "vecnormalize-stats.npz",
         obs_mean=np.asarray(env.obs_rms.mean, dtype=np.float64),
         obs_var=np.asarray(env.obs_rms.var, dtype=np.float64),
         obs_eps=np.array(env.epsilon, dtype=np.float64),
         obs_clip=np.array(env.clip_obs, dtype=np.float64),
     )
-    with open(out_dir / "training_curve.csv", "w", encoding="utf-8", newline="") as f:
-        f.write("total_steps,mean_ep_reward_last100\n")
-        for steps, reward in curve_rows:
-            f.write(f"{steps},{reward:.6f}\n")
-    meta = {
+    checkpoint_meta = {
+        **meta,
+        "total_steps": actual_steps,
+        "wall_seconds": round(time.time() - meta["started_unix"], 1),
+        "requested_checkpoint_targets": requested_targets,
+    }
+    checkpoint_meta.pop("started_unix")
+    (checkpoint_dir / "training_meta.json").write_text(
+        json.dumps(checkpoint_meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    files = {
+        name: {"sha256": _sha256(checkpoint_dir / name), "size_bytes": (checkpoint_dir / name).stat().st_size}
+        for name in ("model.zip", "vecnormalize-stats.npz", "training_meta.json")
+    }
+    record = {
+        "actual_steps": actual_steps,
+        "requested_targets": requested_targets,
+        "directory": checkpoint_dir.relative_to(out_dir).as_posix(),
+        "files": files,
+    }
+    (checkpoint_dir / "checkpoint_manifest.json").write_text(
+        json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    print(f"[checkpoint] actual_steps={actual_steps} targets={requested_targets} → {checkpoint_dir}")
+    return record
+
+
+def validate_training_args(args):
+    if args.total_steps <= 0 or args.curve_points <= 0 or args.num_vec_envs <= 0 or args.n_steps <= 0:
+        raise ValueError("训练步数、曲线段数、向量场景数和每轮步数都必须为正数")
+    if args.batch_size <= 0 or args.seed < 0 or len(set(args.checkpoint_steps)) != len(args.checkpoint_steps):
+        raise ValueError("batch_size/seed 无效，或检查点目标重复")
+    rollout_samples = args.n_steps * args.num_vec_envs * 3
+    steps_per_iter = max(args.total_steps // args.curve_points, 1)
+    samples_per_iter = math.ceil(steps_per_iter / rollout_samples) * rollout_samples
+    expected_actual_steps = math.ceil(args.total_steps / samples_per_iter) * samples_per_iter
+    if any(step <= 0 or step > expected_actual_steps for step in args.checkpoint_steps):
+        raise ValueError("检查点目标超出本次训练预算")
+    protocol_path = None
+    if args.protocol_path is not None:
+        protocol_path = (args.protocol_path if args.protocol_path.is_absolute() else _REPO_ROOT / args.protocol_path).resolve()
+        if not protocol_path.is_file() or not protocol_path.is_relative_to(Path(__file__).resolve().parent):
+            raise ValueError("固定协议文件必须位于 participant/P103 内且真实存在")
+    return protocol_path, steps_per_iter, expected_actual_steps
+
+
+def train(args):
+    protocol_path, steps_per_iter, _expected_actual_steps = validate_training_args(args)
+    out_dir = _checked_output_path(Path(args.out))
+    out_dir.mkdir(parents=True, exist_ok=False)
+    started = time.time()
+    base_meta = {
         "seed": args.seed,
-        "total_steps": model.num_timesteps,
-        "wall_seconds": round(wall, 1),
+        "requested_total_steps": args.total_steps,
+        "curve_points": args.curve_points,
+        "started_unix": started,
         "platform": platform.platform(),
         "python_version": platform.python_version(),
+        "stable_baselines3_version": version("stable-baselines3"),
+        "supersuit_version": version("supersuit"),
         "num_vec_envs": args.num_vec_envs,
         "suite": str(_PUBLIC_SUITE.relative_to(_REPO_ROOT)),
+        "suite_sha256": _sha256(_PUBLIC_SUITE),
         "train_case": args.train_case,
         "learning_rate": args.learning_rate,
         "gamma": args.gamma,
+        "gae_lambda": 0.95,
         "ent_coef": args.ent_coef,
         "n_steps": args.n_steps,
         "batch_size": args.batch_size,
+        "norm_obs": True,
+        "norm_reward": False,
+        "clip_obs": 10.0,
+        "train_script_sha256": _sha256(Path(__file__)),
+        "mixed_env_sha256": _sha256(Path(__file__).with_name("mixed_env.py")) if args.train_case == "mixed-basic0-coop0" else None,
+        "source_commit": _git_value("rev-parse", "HEAD"),
+        "working_tree_dirty": bool(_git_value("status", "--porcelain")),
+        "protocol_path": protocol_path.relative_to(_REPO_ROOT).as_posix() if protocol_path else None,
+        "protocol_sha256": _sha256(protocol_path) if protocol_path else None,
     }
-    (out_dir / "training_meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"训练完成: {model.num_timesteps} 步, {wall:.1f}s → {out_dir}")
+    (out_dir / "run_status.json").write_text(
+        json.dumps({"status": "running", "seed": args.seed, "source_commit": base_meta["source_commit"]}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    flat_env = build_env_stack(args.num_vec_envs, args.seed, args.train_case)
+    env = VecNormalize(RecordingVecMonitor(flat_env), norm_obs=True, norm_reward=False, clip_obs=10.0)
+    try:
+        model = PPO(
+            "MlpPolicy", env,
+            seed=args.seed,
+            n_steps=args.n_steps, batch_size=args.batch_size, learning_rate=args.learning_rate,
+            gamma=args.gamma, gae_lambda=0.95, ent_coef=args.ent_coef, verbose=1,
+        )
+        pending = sorted(set(args.checkpoint_steps) | {args.total_steps})
+        curve_rows = []
+        checkpoints = []
+        while model.num_timesteps < args.total_steps:
+            # 保持 B1 冻结的分段推进方式；SB3 每次 learn 向上取整到整轮 rollout。
+            model.learn(total_timesteps=steps_per_iter, reset_num_timesteps=False)
+            ep_rewards = env.get_episode_rewards()
+            mean100 = float(np.mean(ep_rewards[-100:])) if ep_rewards else float("nan")
+            curve_rows.append((model.num_timesteps, mean100))
+            print(f"[curve] steps={model.num_timesteps} mean_ep_reward(last100)={mean100:.4f}")
+            reached = [target for target in pending if target <= model.num_timesteps]
+            if reached:
+                checkpoints.append(_save_checkpoint(out_dir, model, env, base_meta, reached))
+                pending = [target for target in pending if target > model.num_timesteps]
+
+        if pending:
+            raise RuntimeError(f"训练结束时仍有未到达的检查点目标：{pending}")
+        final = checkpoints[-1]
+        final_dir = out_dir / final["directory"]
+        for name in ("model.zip", "vecnormalize-stats.npz", "training_meta.json"):
+            shutil.copyfile(final_dir / name, out_dir / name)
+        with (out_dir / "training_curve.csv").open("w", encoding="utf-8", newline="") as output:
+            output.write("total_steps,mean_ep_reward_last100\n")
+            for steps, reward in curve_rows:
+                output.write(f"{steps},{reward:.6f}\n")
+        root_matches_final = all(
+            _sha256(out_dir / name) == final["files"][name]["sha256"]
+            for name in ("model.zip", "vecnormalize-stats.npz", "training_meta.json")
+        )
+        if not root_matches_final:
+            raise RuntimeError("根目录模型和归一化统计量未与最终检查点保持一致")
+        run_manifest = {
+            "status": "complete",
+            "requested_total_steps": args.total_steps,
+            "actual_total_steps": model.num_timesteps,
+            "checkpoints": checkpoints,
+            "root_model_equals_final_checkpoint": root_matches_final,
+        }
+        (out_dir / "run_manifest.json").write_text(json.dumps(run_manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        (out_dir / "run_status.json").write_text(
+            json.dumps({"status": "complete", "actual_total_steps": model.num_timesteps}, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        print(f"训练完成: {model.num_timesteps} 步, {time.time() - started:.1f}s → {out_dir}")
+    finally:
+        env.close()
 
 
 def check_export(args):
@@ -266,15 +398,17 @@ def main():
     parser.add_argument("--curve-points", type=int, default=20)
     parser.add_argument("--num-vec-envs", type=int, default=4)
     parser.add_argument("--seed", type=int, default=TRAINING_SEED_DEFAULT)
-    parser.add_argument("--train-case", choices=("basic-0", "basic-1", "coop-0", "coop-1"), default="basic-0")
+    parser.add_argument("--train-case", choices=("basic-0", "basic-1", "coop-0", "coop-1", "mixed-basic0-coop0"), default="basic-0")
     parser.add_argument("--learning-rate", type=float, default=3e-4)
     parser.add_argument("--gamma", type=float, default=0.99)
     parser.add_argument("--ent-coef", type=float, default=0.0)
     parser.add_argument("--n-steps", type=int, default=512)
     parser.add_argument("--batch-size", type=int, default=256)
-    parser.add_argument("--out", type=Path, default=_REPO_ROOT / "outputs" / "learning-training")
+    parser.add_argument("--checkpoint-steps", type=int, nargs="*", default=[], help="累计样本检查点；须按实际训练预算预先指定")
+    parser.add_argument("--out", type=Path, default=_OUTPUTS_DIR / "train-manual")
+    parser.add_argument("--protocol-path", type=Path, default=None, help="本次实验的固定协议文件，仅记录其摘要")
     parser.add_argument("--check-export", action="store_true", help="运行导出一致性检查后退出")
-    parser.add_argument("--model-dir", type=Path, default=_REPO_ROOT / "outputs" / "learning-training")
+    parser.add_argument("--model-dir", type=Path, default=_OUTPUTS_DIR / "train-manual")
     parser.add_argument("--npz", type=Path,
                         default=Path(__file__).resolve().parent / "artifacts" / "policy.npz")
     parser.add_argument("--num-obs", type=int, default=256)

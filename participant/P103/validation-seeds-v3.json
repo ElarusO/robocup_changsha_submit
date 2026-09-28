@@ -1,0 +1,4807 @@
+{
+  "schedule_schema_version": "coverage-schedule/1.0",
+  "schedule_id": "p103-validation-seeds-v3",
+  "schedule_hash": "7d5f3d4060cefae53d29507c7bd5c83e631289c77d77a294f94a1bf3b76673fb",
+  "records": [
+    {
+      "case_id": "v3b-00",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3217823412819308613,
+      "policy_seed": 17680087859714349507,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-00",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8314576280937854211,
+      "policy_seed": 2725219979017821902,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-00",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14554011053041520518,
+      "policy_seed": 41326472368614386,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-00",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10795821060523473446,
+      "policy_seed": 5471989937705566415,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-00",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8197281946321557737,
+      "policy_seed": 8340663451367927609,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-00",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9234729028896033558,
+      "policy_seed": 18023859797915102250,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-01",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7791994429406957535,
+      "policy_seed": 844948700822045102,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-01",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 527903827540098238,
+      "policy_seed": 7302576708797231931,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-01",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12728786494845795802,
+      "policy_seed": 6677621146158485379,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-01",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16138171287281084629,
+      "policy_seed": 10214840276550485665,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-01",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3467896644756511959,
+      "policy_seed": 11086534431185538450,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-01",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9936958492736955314,
+      "policy_seed": 10775550328876574967,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-02",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10507057716224816125,
+      "policy_seed": 16760500021600147526,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-02",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5912460479578070136,
+      "policy_seed": 16482061621826805805,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-02",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2905451540578986159,
+      "policy_seed": 11146811877742398816,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-02",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7262550129028258389,
+      "policy_seed": 12992708597664046135,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-02",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3311782084989369370,
+      "policy_seed": 3890854275214088168,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-02",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6873189560922430741,
+      "policy_seed": 6396380952791183987,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-03",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7750656120519902937,
+      "policy_seed": 16916872239101420929,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-03",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1706543254785912267,
+      "policy_seed": 8938425055966791314,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-03",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 410926156015630736,
+      "policy_seed": 14675595166568649930,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-03",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9823642696621441068,
+      "policy_seed": 11076772256061198871,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-03",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17331553414115217168,
+      "policy_seed": 2960999447207195845,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-03",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4913679767513878121,
+      "policy_seed": 13290429567247259790,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-04",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1028598942386635701,
+      "policy_seed": 3879612904847124389,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-04",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8358755313427642972,
+      "policy_seed": 13047896723088991893,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-04",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16371129220042244861,
+      "policy_seed": 17836532122926201069,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-04",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1010003198944012664,
+      "policy_seed": 5630900294847612527,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-04",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6185557848587094144,
+      "policy_seed": 3061647852351291723,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-04",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1124082984799637023,
+      "policy_seed": 896364532103770696,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-05",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6367675688582833456,
+      "policy_seed": 11773700815703841100,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-05",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4484818255470385141,
+      "policy_seed": 16283059171238867131,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-05",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3509111137040627874,
+      "policy_seed": 3495188247041765203,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-05",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17766664093499422263,
+      "policy_seed": 13621932848286105483,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-05",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15911221356776897824,
+      "policy_seed": 14209398212873827624,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-05",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10175313531654225789,
+      "policy_seed": 2743794610852336888,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-06",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14207330673983880636,
+      "policy_seed": 10371891802269531265,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-06",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14302829545381959328,
+      "policy_seed": 9110131357846580550,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-06",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10042026525476355223,
+      "policy_seed": 26764044081444723,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-06",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8647897755971855522,
+      "policy_seed": 11618229565690607082,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-06",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16969684944418951006,
+      "policy_seed": 15961040257171812519,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-06",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3778703381996625947,
+      "policy_seed": 14952613672464803863,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-07",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8356778455169256097,
+      "policy_seed": 125889076479264987,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-07",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15770971828234802937,
+      "policy_seed": 17557451162628590047,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-07",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18067190179579424948,
+      "policy_seed": 3235354114122461581,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-07",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5236006810136167436,
+      "policy_seed": 2237374742282142162,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-07",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9807883333522347552,
+      "policy_seed": 11270925919759775220,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-07",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3778062242254426756,
+      "policy_seed": 14173998868036042908,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-08",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7868341755415704304,
+      "policy_seed": 10348354716683299164,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-08",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15801615790882608415,
+      "policy_seed": 2412808027593081965,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-08",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 909062462460447493,
+      "policy_seed": 9233716037143870211,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-08",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4211084643752259500,
+      "policy_seed": 8657989230496693102,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-08",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15692791116410697671,
+      "policy_seed": 8497211072556452228,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-08",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13383258436327010646,
+      "policy_seed": 654121415810381863,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-09",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2333596032133048521,
+      "policy_seed": 15756224446945471607,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-09",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5405086837758696307,
+      "policy_seed": 5728944821206222312,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-09",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6334355550089428825,
+      "policy_seed": 18245369485937233911,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-09",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5528610594155891008,
+      "policy_seed": 1338336999016190644,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-09",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1856776303892017086,
+      "policy_seed": 7331536850468632458,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-09",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2889288586825587292,
+      "policy_seed": 18015166077925327192,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-10",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6919681213955188512,
+      "policy_seed": 5920650850462876280,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-10",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11599358214831620413,
+      "policy_seed": 3623318940387854846,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-10",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16701460519930231924,
+      "policy_seed": 12119908056911989435,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-10",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17096440351366072739,
+      "policy_seed": 12973762557101465016,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-10",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3860609147893305941,
+      "policy_seed": 15122682002112438034,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-10",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8028638697087725312,
+      "policy_seed": 12443797795776735744,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-11",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8051451993392149201,
+      "policy_seed": 3961339260611178694,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-11",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11052431117538945150,
+      "policy_seed": 4517633138489683850,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-11",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9531221167030826475,
+      "policy_seed": 9432786742586220411,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-11",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3195742678252031324,
+      "policy_seed": 150779741137069644,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-11",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2673954452383217159,
+      "policy_seed": 16813853719347301601,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-11",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16629198727652734286,
+      "policy_seed": 1923098701588560432,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-12",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12365004116052848417,
+      "policy_seed": 8619448841846132118,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-12",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12012991819479735136,
+      "policy_seed": 9649316968216947996,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-12",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7480672594971212674,
+      "policy_seed": 2002378544746105944,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-12",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16795284986639707162,
+      "policy_seed": 6914751448612901432,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-12",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 9493030040548657498,
+      "policy_seed": 13002825626649975289,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-12",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11647977053726330424,
+      "policy_seed": 3887313259345438185,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-13",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1668498092441997670,
+      "policy_seed": 12299362595729746373,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-13",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2159418971776240191,
+      "policy_seed": 4365564713212281345,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-13",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13556685127003577249,
+      "policy_seed": 10388146757475539432,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-13",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5348665063793988014,
+      "policy_seed": 12288911947404704382,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-13",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15741905585084497201,
+      "policy_seed": 16622122845425209181,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-13",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2660881935700868786,
+      "policy_seed": 3590106648018306288,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-14",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12700743762072511252,
+      "policy_seed": 16854315681209918472,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-14",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15683163516302161286,
+      "policy_seed": 18341768483966148255,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-14",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4771392230183713267,
+      "policy_seed": 16533340913762255964,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-14",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9590261681964680050,
+      "policy_seed": 16349046694753716645,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-14",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6235620631954202648,
+      "policy_seed": 3662613082872438847,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-14",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 388571321778932829,
+      "policy_seed": 4915103923696530498,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-15",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3757373389206450957,
+      "policy_seed": 3639984050212692292,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-15",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13721243560915728655,
+      "policy_seed": 17988735562510155309,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-15",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9691702469266194586,
+      "policy_seed": 7110115408425343265,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-15",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13724073429803539892,
+      "policy_seed": 11095264562994201980,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-15",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10435356221637041439,
+      "policy_seed": 8278907466604166322,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-15",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12992885111857312974,
+      "policy_seed": 308431821331031410,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-16",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10120252745972580183,
+      "policy_seed": 14986542738684851939,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-16",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4203192958787568064,
+      "policy_seed": 18080680906467019159,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-16",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7315479773698931166,
+      "policy_seed": 9746344817758674892,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-16",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9613948914454191948,
+      "policy_seed": 16636196857765320588,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-16",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3364364287593497869,
+      "policy_seed": 9321404534910446452,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-16",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17304906604899781831,
+      "policy_seed": 14967103077191905960,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-17",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6297257548047500634,
+      "policy_seed": 9216631738518694328,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-17",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8995812400499247879,
+      "policy_seed": 11823305861243426879,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-17",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15484583915280837047,
+      "policy_seed": 8957861006666036917,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-17",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8778041069857263236,
+      "policy_seed": 1640241581793264240,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-17",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4902086680893605013,
+      "policy_seed": 2702176259807437004,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-17",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13274842301589296801,
+      "policy_seed": 11861722153657269883,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-18",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17853561086000164594,
+      "policy_seed": 10733063979093433785,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-18",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10194067711813808130,
+      "policy_seed": 7642682311815510764,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-18",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4231722631985534597,
+      "policy_seed": 1812176052933812748,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-18",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13144222682310602257,
+      "policy_seed": 1656050172935707241,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-18",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10988133372342452430,
+      "policy_seed": 14036054296900464590,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-18",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7620958093590165954,
+      "policy_seed": 11435403424468456916,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-19",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9381458737809127291,
+      "policy_seed": 9110459287625852179,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-19",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 258458065802075547,
+      "policy_seed": 3320869765407489515,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-19",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4638591159102497661,
+      "policy_seed": 2353368656436701884,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-19",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15396747707372705169,
+      "policy_seed": 17218333776639446528,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-19",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6937212882501317467,
+      "policy_seed": 17281847198326693586,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-19",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5847268509131432796,
+      "policy_seed": 6278450941261386129,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-20",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 18232776632008736959,
+      "policy_seed": 11966973116545107711,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-20",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 812643302681064220,
+      "policy_seed": 13685436313217439675,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-20",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12711822329623059932,
+      "policy_seed": 13886876683641621656,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-20",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15839747558714485782,
+      "policy_seed": 16286641782315804039,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-20",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2046012808707138492,
+      "policy_seed": 9819246559879341267,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-20",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4286687317185944159,
+      "policy_seed": 6504479391655161690,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-21",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1432259725149568421,
+      "policy_seed": 15652526079450492381,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-21",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12099919289837996495,
+      "policy_seed": 3291817676256251418,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-21",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8507698541316046953,
+      "policy_seed": 15319133421634250729,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-21",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9772608934238885243,
+      "policy_seed": 2890639363590047665,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-21",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8121326223252697129,
+      "policy_seed": 6653412879441536209,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-21",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16215289061516993775,
+      "policy_seed": 13535531594817134696,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-22",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2608658520686153705,
+      "policy_seed": 11259722766660923679,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-22",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7037129961718182838,
+      "policy_seed": 13487303173155652647,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-22",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10680261150130837082,
+      "policy_seed": 2047298008697904049,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-22",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16385722363923744853,
+      "policy_seed": 12473800538747766106,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-22",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2557567387057583434,
+      "policy_seed": 13590632386972938,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-22",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11838138831189058974,
+      "policy_seed": 11841044947647180533,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-23",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5724919661977137925,
+      "policy_seed": 14112463209784466907,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-23",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7403722807694731359,
+      "policy_seed": 7689759390256209611,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-23",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12679894705372087219,
+      "policy_seed": 10577717961372723949,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-23",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8910828213495665259,
+      "policy_seed": 4493200547450129666,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-23",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15808231870597241418,
+      "policy_seed": 9774177075074294749,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-23",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8400267351620871704,
+      "policy_seed": 5104022665349381487,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-24",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8105742987722643921,
+      "policy_seed": 16494006244447594837,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-24",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4541133457902094341,
+      "policy_seed": 12823522671613693989,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-24",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17065853966704423671,
+      "policy_seed": 12921042539680315854,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-24",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14267572184509151487,
+      "policy_seed": 10246537458885374203,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-24",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10802229717311528894,
+      "policy_seed": 14615987038098197779,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-24",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14661946386191140876,
+      "policy_seed": 14354206774760370381,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-25",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5051605655484745506,
+      "policy_seed": 3475403133879047604,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-25",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12164797372376054747,
+      "policy_seed": 8249257412168657189,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-25",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 13751780269392200087,
+      "policy_seed": 11813690966321259036,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-25",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 966515849420084288,
+      "policy_seed": 9943439529884051472,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-25",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5846187292545514518,
+      "policy_seed": 11806707203102284953,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-25",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14447114460972718560,
+      "policy_seed": 2708342531791331773,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-26",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10365159434193087619,
+      "policy_seed": 7453083630171861563,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-26",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1266864486498689237,
+      "policy_seed": 15006544453220313745,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-26",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2115665613566630742,
+      "policy_seed": 10997883859478765445,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-26",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14005535772372979043,
+      "policy_seed": 17532024315510564240,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-26",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12053182117758844141,
+      "policy_seed": 7379470844340665658,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-26",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6007163327558491429,
+      "policy_seed": 5190491577572303029,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-27",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 232409679880127400,
+      "policy_seed": 7885539888512120532,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-27",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17117206211395412328,
+      "policy_seed": 16635573520278329829,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-27",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17468509901041398032,
+      "policy_seed": 17875268202687833947,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-27",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12296949089477310831,
+      "policy_seed": 10594638845368825637,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-27",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3366962242674156809,
+      "policy_seed": 3526975422668055499,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-27",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5619122571182178879,
+      "policy_seed": 5093095667057515875,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-28",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12808745002169643402,
+      "policy_seed": 3189739562886667201,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-28",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5515265757488796640,
+      "policy_seed": 11521857334166392801,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-28",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1995400118303541880,
+      "policy_seed": 17731994163187418680,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-28",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4573801500443322746,
+      "policy_seed": 13134676189039893817,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-28",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14361221738041214805,
+      "policy_seed": 7233712718238350266,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-28",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7269470795594272933,
+      "policy_seed": 8367508017007768380,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-29",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4887312295631091195,
+      "policy_seed": 16683851717087296938,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-29",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1551320052944910173,
+      "policy_seed": 13730682845493670149,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-29",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3460401429417507416,
+      "policy_seed": 7425471465342254928,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-29",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6301483144609500563,
+      "policy_seed": 13598676438997385554,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-29",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3790666717099538821,
+      "policy_seed": 1416164567549088807,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-29",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14643358807434857022,
+      "policy_seed": 3955844277318819114,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-30",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1893397937332716304,
+      "policy_seed": 787703498770426905,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-30",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8910360090741385408,
+      "policy_seed": 6481721540911233951,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-30",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3923837055458691475,
+      "policy_seed": 12174600572059143833,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-30",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 18398757568146406289,
+      "policy_seed": 2975124152231979087,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-30",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17912726446233781908,
+      "policy_seed": 7789499873068409047,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-30",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2869028850888654130,
+      "policy_seed": 477164106835265122,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-31",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16311987930661551150,
+      "policy_seed": 7943530593196887721,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-31",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11859941462719853652,
+      "policy_seed": 7228609432594177184,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-31",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16243256171006564507,
+      "policy_seed": 1883668623819701281,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-31",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1130220451674855679,
+      "policy_seed": 17664825628123451554,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-31",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4058392179445638007,
+      "policy_seed": 6059879350127501064,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-31",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17353533315900589893,
+      "policy_seed": 4078224783791806735,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-32",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11540041611297074599,
+      "policy_seed": 8940244209592599719,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-32",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16386370803489755983,
+      "policy_seed": 7019914029815706969,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-32",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10452115286200498880,
+      "policy_seed": 6056040446745849178,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-32",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3671418035246023109,
+      "policy_seed": 17171079874094507187,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-32",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8814785121322678320,
+      "policy_seed": 4822830073370926292,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-32",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7300083567423301657,
+      "policy_seed": 5179363197081516215,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-33",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 440620947557983932,
+      "policy_seed": 4596292634145508862,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-33",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11499751793274496100,
+      "policy_seed": 7268317181539710687,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-33",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16818058220188047824,
+      "policy_seed": 722040047434444897,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-33",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6362384351155292111,
+      "policy_seed": 11266710316610996708,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-33",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15607330896103191601,
+      "policy_seed": 13438640695989142521,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-33",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8839761560459768938,
+      "policy_seed": 16804331387924009599,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-34",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9300025256480535427,
+      "policy_seed": 10489962293704352281,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-34",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5800247514513369477,
+      "policy_seed": 6553324961749595715,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-34",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15334974076711842461,
+      "policy_seed": 18109303747364406474,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-34",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10934041453108048481,
+      "policy_seed": 7066452659537825100,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-34",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 543770242092555064,
+      "policy_seed": 16107053733806366870,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-34",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 405169711103060055,
+      "policy_seed": 3716922956805512274,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-35",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1938195934217480439,
+      "policy_seed": 4405333895324083111,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-35",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10915579543408957898,
+      "policy_seed": 3258620166878403495,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-35",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3739179804049448189,
+      "policy_seed": 9341172478791859640,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-35",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5984658018256376766,
+      "policy_seed": 9984556122779583259,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-35",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5328129421000454335,
+      "policy_seed": 17444402001201144857,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-35",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13936001420951084056,
+      "policy_seed": 10360564404049639590,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-36",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15571373459900862214,
+      "policy_seed": 6624903930916832788,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-36",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1798399685288274018,
+      "policy_seed": 17933324458261717666,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-36",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12007913166056182793,
+      "policy_seed": 10693412963771161344,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-36",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6104360509964593657,
+      "policy_seed": 6648484753387907426,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-36",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15373015146976248198,
+      "policy_seed": 2404554341551158098,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-36",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17545755314105724665,
+      "policy_seed": 6762369565852845846,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-37",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6653898590878629271,
+      "policy_seed": 4329390212904803711,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-37",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1677689344423491197,
+      "policy_seed": 14537541657402151251,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-37",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11568980486885905668,
+      "policy_seed": 17978835012843889001,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-37",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12267455389576222387,
+      "policy_seed": 14893428556038802206,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-37",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15371061934667832766,
+      "policy_seed": 16556336482882552875,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-37",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18395246988171840637,
+      "policy_seed": 15464364167992315109,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-38",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3798153334794044593,
+      "policy_seed": 12989657477222932104,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-38",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 411605767440920594,
+      "policy_seed": 7901856796596592969,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-38",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8243075040660671711,
+      "policy_seed": 14602936414123438230,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-38",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 6368817556464697442,
+      "policy_seed": 12440513403350553953,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-38",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15401719564050281811,
+      "policy_seed": 2170300628598295867,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-38",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15869770763020511010,
+      "policy_seed": 6072973802559634068,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-39",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7204844886908387388,
+      "policy_seed": 12202336399650425460,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-39",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16573656263058609759,
+      "policy_seed": 446298480696992613,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-39",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10029432879207603879,
+      "policy_seed": 6301995073679195679,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-39",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11854307096403336621,
+      "policy_seed": 9118433000183024642,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-39",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8112148590424636094,
+      "policy_seed": 14266471054379910594,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-39",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4835395177208177189,
+      "policy_seed": 2991194279130749292,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-40",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 694956505493489570,
+      "policy_seed": 17106691968636548566,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-40",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7753029942257382187,
+      "policy_seed": 7362914948431277466,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-40",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18192647398509360534,
+      "policy_seed": 9080713883035311938,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-40",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14165812894835134807,
+      "policy_seed": 15002039243604159312,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-40",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13528109258904040679,
+      "policy_seed": 548887480501660818,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-40",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7915110753482694148,
+      "policy_seed": 2922853886589874123,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-41",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1603201451113054239,
+      "policy_seed": 2618995739477823780,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-41",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16627459697252876595,
+      "policy_seed": 17816077473709287008,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-41",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7021149271208953093,
+      "policy_seed": 1851443028999592709,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-41",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3670620040348168800,
+      "policy_seed": 1652411948158361438,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-41",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14786737449128515190,
+      "policy_seed": 16989726906642111879,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-41",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8944596573393385089,
+      "policy_seed": 17297289173012794218,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-42",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12406617394275956327,
+      "policy_seed": 17309172874342681158,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-42",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1747784040445553752,
+      "policy_seed": 16658666154369172226,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-42",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12403434262935462638,
+      "policy_seed": 1417921890736205845,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-42",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3092755505681269700,
+      "policy_seed": 7184007041551786037,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-42",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10471743629830525616,
+      "policy_seed": 1314791373617258021,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-42",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12381802731667717134,
+      "policy_seed": 10490550582025648958,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-43",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14418100109994558111,
+      "policy_seed": 5318241928736645648,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-43",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11456604625988823997,
+      "policy_seed": 7239757722400493028,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-43",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3129158645394221188,
+      "policy_seed": 8032693118710526026,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-43",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10375207426003033548,
+      "policy_seed": 9225954844662288685,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-43",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17355142855608027318,
+      "policy_seed": 14420648097307748102,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-43",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 909037728075342956,
+      "policy_seed": 17989424754899733353,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-44",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8223588297058793181,
+      "policy_seed": 16710886623621214637,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-44",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8459620614444040911,
+      "policy_seed": 11628065107905535510,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-44",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18022231775242372718,
+      "policy_seed": 18216810774922502363,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-44",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1956084418658962648,
+      "policy_seed": 1086203033030948705,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-44",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4749172715687524112,
+      "policy_seed": 10543288663279513636,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-44",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17639536146407414733,
+      "policy_seed": 6136902983478392811,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-45",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15933941986197487943,
+      "policy_seed": 12509292157227224098,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-45",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2507245010317816300,
+      "policy_seed": 16239467357666483791,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-45",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3469764417933970660,
+      "policy_seed": 16934548339130488482,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-45",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10347165643481294725,
+      "policy_seed": 13684204269573166525,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-45",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14668460000882078474,
+      "policy_seed": 6121206141305457554,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-45",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4049464961848450705,
+      "policy_seed": 3710013366426506871,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-46",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5764097887515120826,
+      "policy_seed": 13964953415004277805,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-46",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2324587234952500001,
+      "policy_seed": 2104820613765143294,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-46",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18232449549530237431,
+      "policy_seed": 8142615921823358456,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-46",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 41524619380979703,
+      "policy_seed": 7191331159219788014,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-46",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17097113125088920217,
+      "policy_seed": 9061540442634684579,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-46",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5428213298355953546,
+      "policy_seed": 11184655220943085998,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-47",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16905219781295221781,
+      "policy_seed": 9488399930820884176,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-47",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10213310024163973313,
+      "policy_seed": 8441388176952783387,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-47",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16028669603662371411,
+      "policy_seed": 5920283604791291521,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-47",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3266612260496933880,
+      "policy_seed": 4338243678844714827,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-47",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 669885680522533632,
+      "policy_seed": 14637183987765060207,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-47",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 16760024294431965628,
+      "policy_seed": 4924929242850105522,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-48",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7471726840415699961,
+      "policy_seed": 15138780065178684544,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-48",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17429669453904554932,
+      "policy_seed": 14713256468580224078,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-48",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10866610938235412033,
+      "policy_seed": 1897532848810921997,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-48",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2083638080877835652,
+      "policy_seed": 1202583681569719303,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-48",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 17811789306729778697,
+      "policy_seed": 6775629846394690798,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-48",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18095415921833832776,
+      "policy_seed": 8915416328439889530,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-49",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 18082695985408777349,
+      "policy_seed": 7982591626344859552,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-49",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11805989510647275549,
+      "policy_seed": 876498525350216244,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-49",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10690090448532137241,
+      "policy_seed": 5852034756405637962,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-49",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10278675061565346742,
+      "policy_seed": 2951322916720480543,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-49",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15936023801061785820,
+      "policy_seed": 8872208571740122688,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3b-49",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8729400839264796124,
+      "policy_seed": 4712147195719296465,
+      "group_id": "basic"
+    },
+    {
+      "case_id": "v3c-00",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15253830150698030897,
+      "policy_seed": 12960046525217973250,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-00",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1343972057438402971,
+      "policy_seed": 940326714475628548,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-00",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 682064547560767293,
+      "policy_seed": 17726674874011697863,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-00",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17634739077318059360,
+      "policy_seed": 3317734354279573215,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-00",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3553033461668664157,
+      "policy_seed": 5310205090405505618,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-00",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7708003879641969344,
+      "policy_seed": 3164946792820127656,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-01",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3723509648202371942,
+      "policy_seed": 16997556172145098507,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-01",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14949486633591468566,
+      "policy_seed": 13781567589706974263,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-01",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 673741420000082599,
+      "policy_seed": 14241342810756462202,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-01",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7993331112031771944,
+      "policy_seed": 3463597695318363723,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-01",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5921181407779102015,
+      "policy_seed": 7357231126472776028,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-01",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9012553520660889708,
+      "policy_seed": 4316878624736489410,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-02",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17330988013236020845,
+      "policy_seed": 15959964584697414223,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-02",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2976188438566794806,
+      "policy_seed": 5907502353307688061,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-02",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11019870214894570273,
+      "policy_seed": 1911610043212063984,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-02",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10203399249856316284,
+      "policy_seed": 13648785802033748681,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-02",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 10674706589296660490,
+      "policy_seed": 7763782453289508866,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-02",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2547803345584863451,
+      "policy_seed": 14922860754780880846,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-03",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 355087610556531045,
+      "policy_seed": 6406163978466242484,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-03",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16379353501194694650,
+      "policy_seed": 9176847155237165324,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-03",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9997655647913173142,
+      "policy_seed": 17775194485881510561,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-03",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 18422623771681070075,
+      "policy_seed": 15081429373845363861,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-03",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1837135382936745979,
+      "policy_seed": 15359219307883997788,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-03",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2251231732286235082,
+      "policy_seed": 6404107870632443028,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-04",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17245259835196122839,
+      "policy_seed": 5546998540589477188,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-04",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11841753134685407806,
+      "policy_seed": 17177294719819110570,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-04",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15023689795234668935,
+      "policy_seed": 11984400801777214666,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-04",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 3668934643023213995,
+      "policy_seed": 13023177036744842655,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-04",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11249516681136677244,
+      "policy_seed": 12955063710760591468,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-04",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10101571379429858252,
+      "policy_seed": 10854107101651300345,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-05",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16295067970965363777,
+      "policy_seed": 17137216811541507695,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-05",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15231205279054966768,
+      "policy_seed": 6151414837508022366,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-05",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1688207864231446142,
+      "policy_seed": 18317472927749617056,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-05",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14571874534031702003,
+      "policy_seed": 7350088813014133558,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-05",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3910224904719302525,
+      "policy_seed": 5605422079572908169,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-05",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 844588604943497500,
+      "policy_seed": 11715999003774562031,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-06",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 6287163557885935936,
+      "policy_seed": 3706370876208390139,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-06",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 1930946714271363319,
+      "policy_seed": 18045536124672437678,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-06",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14199563907693344525,
+      "policy_seed": 18117150129349687183,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-06",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11643821402161896969,
+      "policy_seed": 1152317549033127790,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-06",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11698688627556175076,
+      "policy_seed": 13873322071142351371,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-06",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7445419099722512143,
+      "policy_seed": 14662970522738988754,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-07",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 14851299189024130312,
+      "policy_seed": 14062578932033623902,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-07",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17201173673872053144,
+      "policy_seed": 6312642336296230081,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-07",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 426919386033384134,
+      "policy_seed": 15906029836521955429,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-07",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 4035106183290483135,
+      "policy_seed": 13651535291418213840,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-07",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 18131911778831304559,
+      "policy_seed": 8280432005980950809,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-07",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4649650196418975158,
+      "policy_seed": 10326873325504831054,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-08",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13330099439943593194,
+      "policy_seed": 2535766170589310810,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-08",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13619325777130997497,
+      "policy_seed": 1520293363032524549,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-08",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2841205372826127675,
+      "policy_seed": 2269360744561465912,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-08",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1731067154478468493,
+      "policy_seed": 384943517440898311,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-08",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14538769373938785384,
+      "policy_seed": 2198942195889388212,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-08",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12038829492206075231,
+      "policy_seed": 225347676244826644,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-09",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3970959562107390939,
+      "policy_seed": 13001672364342635677,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-09",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4366716490257645304,
+      "policy_seed": 3410929988921492439,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-09",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8999369404300429567,
+      "policy_seed": 2010674944144010632,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-09",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12966202625087354945,
+      "policy_seed": 10225004492489113944,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-09",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6046096956208018679,
+      "policy_seed": 13347709108278373761,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-09",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13674114726939701717,
+      "policy_seed": 8872884300075610095,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-10",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9062037628460729999,
+      "policy_seed": 16699064852928908997,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-10",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12892221082671030113,
+      "policy_seed": 7700294056647313982,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-10",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18387373602444278817,
+      "policy_seed": 8677202182146327005,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-10",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7713072203613000369,
+      "policy_seed": 3901710154510544003,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-10",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6759018311687687931,
+      "policy_seed": 18038695684468853323,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-10",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13745209965007733978,
+      "policy_seed": 9596225742468611989,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-11",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9825186432883994249,
+      "policy_seed": 11067127834455375411,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-11",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 8814573221285445514,
+      "policy_seed": 17125535892663281413,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-11",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7229322880590574216,
+      "policy_seed": 6601883731787321804,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-11",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12402389918219844421,
+      "policy_seed": 4011734014528630898,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-11",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14972353688982021336,
+      "policy_seed": 10754981759157710190,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-11",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12849989765643904169,
+      "policy_seed": 9475987847924453158,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-12",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 839790761827837285,
+      "policy_seed": 9874174170468519590,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-12",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 6533900366492941022,
+      "policy_seed": 4543313526610812469,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-12",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4520770715412188752,
+      "policy_seed": 17595998923822818132,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-12",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8654306834000491537,
+      "policy_seed": 4870703335190074480,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-12",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15537859358549211724,
+      "policy_seed": 6348727055951412469,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-12",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 18376739934830603346,
+      "policy_seed": 5572804401155471565,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-13",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 18365820789648357640,
+      "policy_seed": 3698131049700674056,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-13",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11658989451024731617,
+      "policy_seed": 11030957540946189112,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-13",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14873927462997793826,
+      "policy_seed": 10212449333373775502,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-13",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2821729594602670079,
+      "policy_seed": 11300500683182987288,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-13",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 190320303672792357,
+      "policy_seed": 10490442629451560309,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-13",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17300337155379492826,
+      "policy_seed": 14551576159054894476,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-14",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2146773366529612582,
+      "policy_seed": 2698673108582532075,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-14",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11182287206446177986,
+      "policy_seed": 5773653634549249101,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-14",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7109909321939920518,
+      "policy_seed": 18400809562442955545,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-14",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9487694758967881109,
+      "policy_seed": 5680570069741821461,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-14",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6089462745349535098,
+      "policy_seed": 5970059129199332955,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-14",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2747033770254393456,
+      "policy_seed": 16552265009269961490,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-15",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15342152178382780201,
+      "policy_seed": 1754248026942431620,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-15",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7924895862550049427,
+      "policy_seed": 8837425148283977779,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-15",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8598339235219245434,
+      "policy_seed": 6482717848563671364,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-15",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12198498822531591290,
+      "policy_seed": 11473213323535304453,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-15",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6292638563868231442,
+      "policy_seed": 3142476382688126937,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-15",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5304883717174706144,
+      "policy_seed": 17137955145323585298,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-16",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10337829919096175546,
+      "policy_seed": 3375148453507722417,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-16",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10522314146976283907,
+      "policy_seed": 2182596160889448203,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-16",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 6634548941983830469,
+      "policy_seed": 3075446477471829257,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-16",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12234539073576155370,
+      "policy_seed": 527235929384920614,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-16",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6587695286056862656,
+      "policy_seed": 5571040340797783359,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-16",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3366203329890363175,
+      "policy_seed": 16945569025861835375,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-17",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9828343525864956590,
+      "policy_seed": 17856441626428831402,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-17",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11330110358229235212,
+      "policy_seed": 1859644449499977289,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-17",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14579903290703151278,
+      "policy_seed": 9158213172402663060,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-17",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1619463615728712512,
+      "policy_seed": 16523183267904201331,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-17",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15750027864289087754,
+      "policy_seed": 9871361055353455765,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-17",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 379003819132296863,
+      "policy_seed": 4948491719215396014,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-18",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 8143207935580120742,
+      "policy_seed": 5590581827757969681,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-18",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13948032838774724574,
+      "policy_seed": 11738858358415921769,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-18",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15898293403388937985,
+      "policy_seed": 12980662825214491052,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-18",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11208727577301732230,
+      "policy_seed": 16939305027911956008,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-18",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2489342024934862421,
+      "policy_seed": 15079871644987838764,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-18",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8446906079624977342,
+      "policy_seed": 16026856656869825547,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-19",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13161091866080588090,
+      "policy_seed": 5103480414667392649,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-19",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13793923125644981889,
+      "policy_seed": 8046185351144963005,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-19",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10652526136859561735,
+      "policy_seed": 5040290902768544151,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-19",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17539915047600729734,
+      "policy_seed": 16898368689446062477,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-19",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12695963740589580008,
+      "policy_seed": 16820839807779059360,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-19",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7385728229927277864,
+      "policy_seed": 7556265034697653155,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-20",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13749389087837335686,
+      "policy_seed": 13875820681133983817,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-20",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15106484049551848011,
+      "policy_seed": 5156360033900809534,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-20",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17971462342136973183,
+      "policy_seed": 8966530377275869079,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-20",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2341239540320486558,
+      "policy_seed": 343376357361218264,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-20",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16464667197296794559,
+      "policy_seed": 6646096867377437088,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-20",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 12232880500005215667,
+      "policy_seed": 1974456453606023770,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-21",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16685109927938439632,
+      "policy_seed": 5147418232971350551,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-21",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5634318527216499587,
+      "policy_seed": 7037003397315988538,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-21",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14747604938353752390,
+      "policy_seed": 14389883271464408703,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-21",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17110387262915361179,
+      "policy_seed": 15699248541443209009,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-21",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1406161901122426417,
+      "policy_seed": 15266164881441226618,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-21",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 10917040142512615109,
+      "policy_seed": 16811164154795840796,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-22",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9276253458074903570,
+      "policy_seed": 5424408154314017541,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-22",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 13461029681392149640,
+      "policy_seed": 16583399445420929082,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-22",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3361545428691166137,
+      "policy_seed": 3345170943607179965,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-22",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15721926935256950503,
+      "policy_seed": 12172552903528597417,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-22",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16062354499613584014,
+      "policy_seed": 9063733182593200761,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-22",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1625250671203617583,
+      "policy_seed": 8842183825522280350,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-23",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10638305641438667525,
+      "policy_seed": 5868746934346734115,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-23",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5966640981443975862,
+      "policy_seed": 11657024639381209229,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-23",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17317787796114900325,
+      "policy_seed": 14883876845588718494,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-23",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13024103862982621175,
+      "policy_seed": 4021710367660102834,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-23",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 2628325927983595790,
+      "policy_seed": 13241896071138877581,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-23",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11069142019604841018,
+      "policy_seed": 4377573460400384582,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-24",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7782913614051769960,
+      "policy_seed": 14765973144259690179,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-24",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 5632917835285713373,
+      "policy_seed": 3788555479832102738,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-24",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 16661748296075673645,
+      "policy_seed": 9901164651154721025,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-24",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16332706422761957192,
+      "policy_seed": 3334978081425948902,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-24",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 5048610609226748631,
+      "policy_seed": 10080114183345821332,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-24",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15011896314436354881,
+      "policy_seed": 13672604115065399771,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-25",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3979389299864123850,
+      "policy_seed": 7223240219396427329,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-25",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9879231818857054616,
+      "policy_seed": 9577687553202957300,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-25",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11830604391407101987,
+      "policy_seed": 11902422146888904260,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-25",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7128580458684950140,
+      "policy_seed": 10039689686743499378,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-25",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 12272007464453772177,
+      "policy_seed": 2755756513162995101,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-25",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4883933081580732821,
+      "policy_seed": 7427984644904029425,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-26",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 5084392683962676917,
+      "policy_seed": 15501711413104731231,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-26",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 11479339160874567786,
+      "policy_seed": 16877183297817335934,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-26",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 680851551868121884,
+      "policy_seed": 9012572700281767943,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-26",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 13869889084577664905,
+      "policy_seed": 3747175981258755836,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-26",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 4014190422022681179,
+      "policy_seed": 17514538745815594935,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-26",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9376449869404953873,
+      "policy_seed": 2614021571435749336,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-27",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7369554001070920413,
+      "policy_seed": 11565992047259218792,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-27",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17558008456587445586,
+      "policy_seed": 3157555999797092475,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-27",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 4197774965283245571,
+      "policy_seed": 12361553120918970350,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-27",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7969929988262517511,
+      "policy_seed": 8234935855618257656,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-27",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1082920885553245271,
+      "policy_seed": 6193501761445614330,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-27",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 11563465229617982638,
+      "policy_seed": 4503272414875861000,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-28",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16723940965558584436,
+      "policy_seed": 8984626838014096953,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-28",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 3109311063144982560,
+      "policy_seed": 8914563981894307823,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-28",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15453987130220516562,
+      "policy_seed": 7871845105734737127,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-28",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16111199878123949979,
+      "policy_seed": 12110616906047005321,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-28",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 15217769087807147226,
+      "policy_seed": 11574469919226282938,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-28",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3923043103663000592,
+      "policy_seed": 3587093144685763387,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-29",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 15655231463775784579,
+      "policy_seed": 15249228440733645791,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-29",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10898730915038281222,
+      "policy_seed": 12502733903728599209,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-29",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 9401959142688869473,
+      "policy_seed": 7427473921883389887,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-29",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 16623518569053419816,
+      "policy_seed": 8478172099768195416,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-29",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16961326067801302094,
+      "policy_seed": 7911806051384805293,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-29",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13952758356678519044,
+      "policy_seed": 3116307221408612074,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-30",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 3722014019213073616,
+      "policy_seed": 16075678559016935892,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-30",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7523602905057689508,
+      "policy_seed": 17133424949811662477,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-30",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17116348740345569997,
+      "policy_seed": 3113830777925861478,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-30",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 15533214519613537086,
+      "policy_seed": 7892690670533727859,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-30",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3779467294529481736,
+      "policy_seed": 8060597403173327908,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-30",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 14707432670990738795,
+      "policy_seed": 3730565813910523808,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-31",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 13540610083013975142,
+      "policy_seed": 9267181656598953050,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-31",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 7262150661351820235,
+      "policy_seed": 105033870441136290,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-31",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 14568417944585356016,
+      "policy_seed": 4380770781289735919,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-31",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12325671461675321061,
+      "policy_seed": 559160629279664262,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-31",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 13907695175339801052,
+      "policy_seed": 169112580332339806,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-31",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3189017557207905868,
+      "policy_seed": 8289690149296274589,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-32",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 129220858913148358,
+      "policy_seed": 11784118500510972548,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-32",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 15160900085545311595,
+      "policy_seed": 13501012471842263378,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-32",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12138213649939308580,
+      "policy_seed": 15236809868087325593,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-32",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 10900353066972923267,
+      "policy_seed": 12111183561571858690,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-32",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 14207551371420875320,
+      "policy_seed": 5270996396690274311,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-32",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 2748383949479056288,
+      "policy_seed": 13476506770893449050,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-33",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 7165093830295394243,
+      "policy_seed": 14234928865320832951,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-33",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16904365346530062380,
+      "policy_seed": 13943980421414576899,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-33",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2479763864726855282,
+      "policy_seed": 5633028096204762083,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-33",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 9260062813022459845,
+      "policy_seed": 17310900695590148867,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-33",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 59433308711606691,
+      "policy_seed": 9277527595108658809,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-33",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1620933387732509765,
+      "policy_seed": 9293915881854237873,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-34",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 1824891367377668656,
+      "policy_seed": 615440192164993384,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-34",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 9281695948525052787,
+      "policy_seed": 5740680214984083997,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-34",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 2753408353900586935,
+      "policy_seed": 9251470064580844229,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-34",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1909862694684077366,
+      "policy_seed": 11344241019332484224,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-34",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11083587845462657691,
+      "policy_seed": 7297248237153487711,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-34",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 6069134356715044000,
+      "policy_seed": 7011654821855663963,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-35",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12354011233958496962,
+      "policy_seed": 10283978058098355968,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-35",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17065857671010684781,
+      "policy_seed": 17378149370020025250,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-35",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 15760371404765338304,
+      "policy_seed": 9378929163457768695,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-35",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 14956000061330288339,
+      "policy_seed": 14382774839270065654,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-35",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 7224282651473130511,
+      "policy_seed": 4743473877657589215,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-35",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 17353301212904842120,
+      "policy_seed": 10311587586344255649,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-36",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2653850370811859326,
+      "policy_seed": 10014620419603288798,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-36",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 4291995529030431234,
+      "policy_seed": 11059625997510206805,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-36",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 1763678218224337512,
+      "policy_seed": 15151363530403088940,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-36",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17175934510637582153,
+      "policy_seed": 6793875287173006262,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-36",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 1401314865588741144,
+      "policy_seed": 10533716029313387033,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-36",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5191254515161562404,
+      "policy_seed": 12560808298406466406,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-37",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 12870238837002987183,
+      "policy_seed": 8977832454725586115,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-37",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2500299920715498287,
+      "policy_seed": 10835941480266490441,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-37",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 12936419471603355721,
+      "policy_seed": 15776123650923196339,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-37",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17043545301677305493,
+      "policy_seed": 5092388978602338436,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-37",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16037780674405837654,
+      "policy_seed": 12370039638122618737,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-37",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 1010384204769767995,
+      "policy_seed": 3165909058942892697,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-38",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 16755434925157068440,
+      "policy_seed": 16283347231779164786,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-38",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14130767466394625190,
+      "policy_seed": 2896439200593553439,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-38",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7375082397047205879,
+      "policy_seed": 8775159968859848325,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-38",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12958913758043383144,
+      "policy_seed": 14782839473377303620,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-38",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 6998303321223709520,
+      "policy_seed": 15838789106402436717,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-38",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4684578190073366390,
+      "policy_seed": 5876501952149881243,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-39",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4115573851401023305,
+      "policy_seed": 13824819843893060415,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-39",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 964820268096420946,
+      "policy_seed": 9190549537355643820,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-39",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 10537963014838817005,
+      "policy_seed": 9494846857444645974,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-39",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8943095424218162889,
+      "policy_seed": 9581199950241608658,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-39",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 690499950489798135,
+      "policy_seed": 4549294177117406286,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-39",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 5763491925570496158,
+      "policy_seed": 9225683314075406067,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-40",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 11439841449960484514,
+      "policy_seed": 16970525846941973936,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-40",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 18329387048618871635,
+      "policy_seed": 779589073862959947,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-40",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 17199529570941646938,
+      "policy_seed": 8253446321650803350,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-40",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 17739769800961324921,
+      "policy_seed": 11622479867597729616,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-40",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 8491296821979503751,
+      "policy_seed": 5055449221470480645,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-40",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7341389839612136799,
+      "policy_seed": 13229607542676149698,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-41",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 10735593607742657041,
+      "policy_seed": 6072805268577574033,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-41",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 14262255250073498302,
+      "policy_seed": 4220716639910210117,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-41",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7287721070281074470,
+      "policy_seed": 5675604040848325054,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-41",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8910238150039221963,
+      "policy_seed": 11403554135816568912,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-41",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 18420774587775572094,
+      "policy_seed": 16058594271866636434,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-41",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 9209126789845703746,
+      "policy_seed": 7128288734780799540,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-42",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4643441737173730709,
+      "policy_seed": 14808099415709859203,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-42",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 2103559970016252713,
+      "policy_seed": 4284832168386560113,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-42",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18413734002837169899,
+      "policy_seed": 526912722767015870,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-42",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5877841781529786642,
+      "policy_seed": 18205091917595533841,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-42",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 557014303941413074,
+      "policy_seed": 5964524405014720756,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-42",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 3689547720186429038,
+      "policy_seed": 8429868582243630015,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-43",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2718722402029098954,
+      "policy_seed": 2771653691442059651,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-43",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 16777827532276235537,
+      "policy_seed": 13206048421091784872,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-43",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18120533789683335559,
+      "policy_seed": 5087856132905676048,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-43",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 11620633023815162153,
+      "policy_seed": 10835706860929134034,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-43",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3791707291318826791,
+      "policy_seed": 7274222916106025845,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-43",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 4816708230016100704,
+      "policy_seed": 3559541014859044480,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-44",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 4906677272095645815,
+      "policy_seed": 7458245536546318836,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-44",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 10358118182724094419,
+      "policy_seed": 16144525847024957943,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-44",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 11015403980803917440,
+      "policy_seed": 13330997294191952200,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-44",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 8139894415653451349,
+      "policy_seed": 11610984123503995336,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-44",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11671176385404187777,
+      "policy_seed": 11968514830192724317,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-44",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13322851681597248676,
+      "policy_seed": 6839546891257387763,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-45",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 17184925413669647886,
+      "policy_seed": 3782872445022354196,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-45",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17580384272862367337,
+      "policy_seed": 12349480846318232663,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-45",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 18401698971515612893,
+      "policy_seed": 13559895212514415806,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-45",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 12312564761105724844,
+      "policy_seed": 6574569306954734669,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-45",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 16517804633560011313,
+      "policy_seed": 2898620998652000364,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-45",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13651890763628756415,
+      "policy_seed": 3732432120220019704,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-46",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9636020702949482708,
+      "policy_seed": 4237746349985432344,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-46",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 17723076273988843382,
+      "policy_seed": 4650704981549840854,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-46",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 3859489803730703240,
+      "policy_seed": 1717769094923407983,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-46",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 7618372657733986938,
+      "policy_seed": 9355518395746035412,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-46",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 11105928772503145687,
+      "policy_seed": 14879893195238869446,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-46",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 13703383737147346238,
+      "policy_seed": 16309294851271868067,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-47",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 9935829725454791499,
+      "policy_seed": 11517522277479906320,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-47",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 591189053152325408,
+      "policy_seed": 4383332379955054633,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-47",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 7738230570479184618,
+      "policy_seed": 5127354378497625702,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-47",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 2611677598998685587,
+      "policy_seed": 11633469403890403966,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-47",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 3691627494904196502,
+      "policy_seed": 4992170664643981851,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-47",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 8474912663517598432,
+      "policy_seed": 16563495277312366645,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-48",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 588302280679642422,
+      "policy_seed": 10663707440483790443,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-48",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 12688706422352179481,
+      "policy_seed": 1178784859590576798,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-48",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8820064653910977102,
+      "policy_seed": 16331756913737075011,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-48",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 1880283161526043497,
+      "policy_seed": 11504458292754250887,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-48",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 18144631639759763049,
+      "policy_seed": 13060410504747149104,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-48",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 7167908138021767039,
+      "policy_seed": 6206112224292277252,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-49",
+      "repeat_index": 0,
+      "agent_index": 0,
+      "build_seed": 2171301104267000559,
+      "policy_seed": 16243265526097451459,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-49",
+      "repeat_index": 0,
+      "agent_index": 1,
+      "build_seed": 593018778768615314,
+      "policy_seed": 12942256182572642399,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-49",
+      "repeat_index": 0,
+      "agent_index": 2,
+      "build_seed": 8480252399057263463,
+      "policy_seed": 3123798472495420743,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-49",
+      "repeat_index": 1,
+      "agent_index": 0,
+      "build_seed": 5505006724380141903,
+      "policy_seed": 224602984363035320,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-49",
+      "repeat_index": 1,
+      "agent_index": 1,
+      "build_seed": 635806097107830743,
+      "policy_seed": 16189194391926536541,
+      "group_id": "cooperation"
+    },
+    {
+      "case_id": "v3c-49",
+      "repeat_index": 1,
+      "agent_index": 2,
+      "build_seed": 15992187828278179484,
+      "policy_seed": 8864645682256062078,
+      "group_id": "cooperation"
+    }
+  ]
+}
