@@ -4,9 +4,9 @@
 
 提交模型选自 **E009**。使用官方模板的 Stable-Baselines3 PPO 网络架构（104 维局部观测 → 64 → 64 → 二维连续动作），在 basic-0 场景中从头训练；正式推理只用 NumPy，按单个机器人的局部观测独立输出动作。没有改动官方环境、评分程序、观测协议或训练奖励。entry.py 加载 artifacts/policy.npz，submission.yaml 中的 SHA-256 和字节数与该文件一致。
 
-E009 训练种子为 7101，请求 1,000,000 步，因 PPO 按完整 rollout 更新，实际完成 **1,044,480 步**；Windows CPU 训练耗时 **319.0 秒**。关键参数：learning_rate=0.0001、gamma=0.99、gae_lambda=0.95、n_steps=512、batch_size=256、ent_coef=0、4 个向量环境，观测用 VecNormalize 归一化。模型文件大小 92,186 字节，SHA-256：
+E009 训练种子为 7101，请求 1,000,000 步，因 PPO 按完整 rollout 更新，实际完成 **1,044,480 步**；Windows CPU 训练耗时 **319.0 秒**。关键参数：learning_rate=0.0001、gamma=0.99、gae_lambda=0.95、n_steps=512、batch_size=256、ent_coef=0、4 个向量环境，观测用 VecNormalize 归一化。模型文件大小 92,186 字节，SHA-256 为 `6b5c8cc0fc0279a86e3218665e4623eeb10dd4a4b5e75c642933cb87fef6ed51`。
 
-6b5c8cc0fc0279a86e3218665e4623eeb10dd4a4b5e75c642933cb87fef6ed51
+**历史训练版本说明：** E009 使用 A2 修正前的 `train.py`，对应 Git 提交 `7c0ecd07e0a3c960001236833ec201681359feca`。`submission.yaml` 中的 `train_command` 记录了当时的参数；目前目录里的 `train.py` 已修正自动重置、终局观测与时间截断处理，用相同参数重新训练不能保证得到这份 E009 权重。现有 `artifacts/policy.npz` 与入口可独立复现 E009 的推理；若要研究原训练过程，应结合历史提交和保存的训练产物，不能把新训练称为 E009 的逐字节重现。详见 `A2_AUDIT.md`。
 
 导出时在 256 个真实环境观测上核对 SB3 与 NumPy 的确定性动作，最大绝对差 3.604e-07，低于 1e-5 容差。E009 预检无拒绝项。训练模型、归一化统计量与导出记录保存在本地 outputs/P103/train-E009/、outputs/P103/post-E009/；这些运行产物不进入 Git，正式推理需要的权重已在本人目录的 artifacts/policy.npz 中。
 
@@ -33,19 +33,14 @@ E009 公开评测 8/8 回合完成，status=ok、provenance=local_preview，总�
 
 ## 复现方法
 
-在仓库根目录的 Windows PowerShell 中运行。.venv-train 安装训练依赖，.venv 安装官方评测依赖；完整环境配置见仓库 docs/how_to_use.md。复现时使用新的实验编号与输出目录，不覆盖已有结果。以下以 E011 为例：
+在仓库根目录的 Windows PowerShell 中，使用装有官方锁定依赖的 `.venv` 复核**当前 E009 成品**。每次使用新的输出目录，不能覆盖已有结果。例如：
 
 ~~~powershell
-.\.venv-train\Scripts\python.exe participant/P103/train.py --total-steps 1000000 --curve-points 10 --seed 7101 --train-case basic-0 --learning-rate 0.0001 --out outputs/P103/train-E011
-.\.venv-train\Scripts\python.exe participant/P103/postprocess.py export --model-dir outputs/P103/train-E011 --experiment-id E011
-.\.venv-train\Scripts\python.exe participant/P103/postprocess.py activate --experiment-id E011
-.\.venv\Scripts\python.exe scripts/check_submission.py --submission participant/P103 --output outputs/P103/check-E011
-.\.venv\Scripts\python.exe scripts/evaluate_one.py --submission participant/P103 --suite configs/public-suite-v1.yaml --seeds configs/public-seeds-v1.json --output outputs/P103/eval-E011
-.\.venv\Scripts\python.exe scripts/evaluate_one.py --submission participant/P103 --suite participant/P103/validation-suite-v1.yaml --seeds participant/P103/validation-seeds-v1.json --output outputs/P103/holdout-E011
-.\.venv-train\Scripts\python.exe participant/P103/postprocess.py restore --experiment-id E011
+.\.venv\Scripts\python.exe -B scripts/check_submission.py --submission participant/P103 --output outputs/P103/check-E009-repro-001
+.\.venv\Scripts\python.exe -B scripts/evaluate_one.py --submission participant/P103 --suite configs/public-suite-v1.yaml --seeds configs/public-seeds-v1.json --output outputs/P103/public-E009-repro-001
 ~~~
 
-activate 会暂时替换提交模型，restore 会恢复本报告选择的 E009。由于框架版本、硬件和随机性，重新训练未必得到逐字节相同的模型。若只想复查当前提交模型，可直接运行预检和两条评测命令，并将 --output 改为全新的目录，例如 outputs/P103/eval-final-001。
+上述命令不会重新训练或替换模型。需要复核本地 Linux 行为时，使用 `LINUX_VM_CHECK.md` 的 Ubuntu 步骤；Windows 结果属于 `local_preview`。若要研究 E009 的历史训练过程，使用 A2 修正前的 Git 提交 `7c0ecd07e0a3c960001236833ec201681359feca` 与原训练记录，不能将当前 `train.py` 的新训练结果称为原 E009。
 
 ## 局限与后续方向
 
@@ -83,3 +78,11 @@ D 参数搜索按冻结规则依次比较学习率与探索系数。较高学习
 ## E4 挑战候选冻结附记（2026-09-29）
 
 依据 E2 的开发比较和近似同分优先低碰撞规则，只选 **E015 目标朝向→队友避让组合版**进入下一阶段 A4；E009 保留为回退。两份包均已独立冻结，逐文件哈希、ZIP 摘要及选择依据见 `E4_CANDIDATE_FREEZE.md`。E015 冻结包重新评测公开/v2/v3 为 **191.67/139.00/146.00**，全部成功；v2/v3 的 400 个配对回合非耗时结果与先前组合版相同。E009 冻结回退包公开得 **200.00**。这些是 Windows 本地预览，公开套件仅 8 回合，不作为最终选模依据。当前正式 `participant/P103` 仍是 E009；A4 未运行，E015 未做本地 Linux 检验。
+
+## F1 A4 最终确认附记（2026-09-29）
+
+在读取 A4 分数前写定两份冻结 ZIP 的同场景比较与换模门槛，协议 SHA-256 为 `8be5e27288ceedc8b8e15e792968156a998ec6281b9478ea61878d25ee5c3c4e`。两包各完成 200/200 回合的 Windows 本地预览：E009 **120.33**，E015 组合 **126.33**，差 **+6.00**。基础组 mean_j 提高 0.012，协作组基本持平；本批次两组均未观察到碰撞。100 个不同场景按相同场景配对后的 95% 重采样区间为 **[−0.33, 13.00]**，下界未按事前门槛高于 0。因此继续保留正式 E009，不将 E015 组合换入提交包。详情及原始结果见 `F1_A4_REPORT.md`。此结果只属于这两份固定 ZIP 和这套本地题，不能称为组织方成绩；上文“ A4 未运行”是 E4 当时的历史状态。
+
+## 正式目录最终核验附记（2026-09-29）
+
+本次核对确认正式 `entry.py`、`artifacts/policy.npz`、`submission.yaml`、`requirements-infer.lock` 与冻结 E009 及此前 Ubuntu 检验包逐字节一致。清除 Python 缓存后提交预检拒绝项为 0；正式目录在公开套件完成 8/8 回合、`status=ok`、Windows `local_preview` **200.00**。人工扫描提示涉及训练和实验脚本，正式推理入口不调用它们。核对与本地备份登记见 `F2_FORMAL_DIRECTORY_AUDIT.md`、`F3_FINAL_DELIVERY_RECORD.md`。本次仍无组织方正式成绩，模型未改变。
