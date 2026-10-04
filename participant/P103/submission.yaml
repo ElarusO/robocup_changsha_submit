@@ -1,17 +1,21 @@
-submission_schema_version: "coverage-submission/1.0"
-participant_id: "P103"
-protocol_version: "coverage-policy/1.0"
-task_version: "coverage-task/1.0"
-entrypoint: "entry:build_policy"
-artifact_dir: "artifacts"
+submission_schema_version: coverage-submission/1.0
+participant_id: P103
+protocol_version: coverage-policy/1.0
+task_version: coverage-task/1.0
+entrypoint: entry:build_policy
+artifact_dir: artifacts
 checkpoint_manifest:
-  - path: "artifacts/policy.npz"
-    sha256: "6b5c8cc0fc0279a86e3218665e4623eeb10dd4a4b5e75c642933cb87fef6ed51"
-    size_bytes: 92186
-inference_lock: "requirements-infer.lock"
-method_type: "learning"
-train_command: "python train.py --total-steps 1000000 --curve-points 10 --seed 7101 --train-case basic-0 --learning-rate 0.0001"
-training_config_paths: []
-report_path: "REPORT.md"
+- path: artifacts/policy.npz
+  sha256: 0bde83fe3983920ee50446f218d54a58e886ee609bc00fcfb5b68efc95c11173
+  size_bytes: 92186
+inference_lock: requirements-infer.lock
+method_type: learning
+train_command: python train.py --total-steps 1000000 --curve-points 10 --num-vec-envs
+  4 --seed 7102 --train-case mixed-basic0-coop0 --learning-rate 0.0001 --checkpoint-steps
+  313344 626688 1044480 --protocol-path c-protocol-v1.json --out outputs/P103/retrain-E015-E4
+training_config_paths:
+- c-protocol-v1.json
+report_path: REPORT.md
 metadata:
-  description: "P103：SB3 PPO 训练，NumPy 推理；提交模型来自 E009"
+  description: P103 E015 mixed-task PPO (seed 7102) with verified H3 fixed pursuit;
+    formally activated 2026-10-01
